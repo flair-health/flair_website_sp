@@ -1,3 +1,6 @@
+import tailwindcssAnimate from "tailwindcss-animate";
+
+/** @type {import('tailwindcss').Config} */
 const config = {
   darkMode: ["class"],
   content: [
@@ -6,6 +9,9 @@ const config = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
+  colors: {
+    accent: "#00A1AB",
+  },
   prefix: "",
   theme: {
     container: {
@@ -32,6 +38,7 @@ const config = {
       },
     },
   },
+  plugins: [tailwindcssAnimate],
 };
 
 export default config;
