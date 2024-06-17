@@ -21,7 +21,7 @@ const FeatureSection = () => {
       </div>
       <div className="w-full flex 2xl:flex-row flex-col justify-between 2xl:w-[70%] 2xl:items-center">
         <div className="mb-8 mx-auto">
-          <img src={url} className="h-[400px] md:h-[600px]" />
+          <img src={url} className="h-[400px] md:h-[600px]" alt="features" />
         </div>
         <Accordion
           type="single"
