@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 
 const Navbar = () => {
@@ -6,18 +8,15 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    if (white == 100) {
-      setWhite(30);
-    } else {
-      setWhite(100);
-    }
+    setWhite(white === 100 ? 30 : 100);
   };
 
   return (
     <div
-      className={`sticky top-0 z-50 h-20 w-full items-center backdrop-blur bg-white bg-opacity-${white || 30} shadow-sm px-2 flex justify-between `}
+      className={`sticky top-0 z-50 h-20 w-full items-center backdrop-blur shadow-sm px-2 flex justify-between bg-white`}
+      style={{ backgroundColor: `rgba(255, 255, 255, ${white / 100})` }}
     >
-      <div className=" w-[95%] md:p-0 m-auto flex items-center justify-between">
+      <div className="container w-[98%] md:p-0 m-auto flex items-center justify-between">
         <a href="/">
           <img src="flair_logo.svg" width="120px" alt="Logo" />
         </a>
@@ -44,7 +43,7 @@ const Navbar = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden flex flex-col items-center  bg-white  shadow-sm gap-4 h-screen p-4 absolute w-full top-20 left-0">
+        <div className="md:hidden flex flex-col items-center bg-white shadow-sm gap-4 h-screen p-4 absolute w-full top-20 left-0">
           <div>About</div>
           <div>For Patients</div>
           <div>For Clinics</div>
