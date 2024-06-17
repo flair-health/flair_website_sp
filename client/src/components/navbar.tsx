@@ -17,7 +17,7 @@ const Navbar = () => {
     <div
       className={`sticky top-0 z-50 h-20 w-full items-center backdrop-blur bg-white bg-opacity-${white || 30} shadow-sm px-2 flex justify-between `}
     >
-      <div className="container w-[95%] md:p-0 m-auto flex items-center justify-between">
+      <div className=" w-[95%] md:p-0 m-auto flex items-center justify-between">
         <a href="/">
           <img src="flair_logo.svg" width="120px" alt="Logo" />
         </a>
