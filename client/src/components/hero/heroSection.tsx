@@ -36,8 +36,10 @@ const HeroSection = () => {
       </div>
       <div className="container mt-10">
         <video
-          src="/gurl.mp4"
-          autoPlay
+          src="https://res.cloudinary.com/diftttclq/video/upload/v1718629473/gurl_1_mxfc1g.mp4"
+          autoPlay={true}
+          muted
+          loop
           className="h-auto w-full max-h-[507px] object-cover md:h-[507px] rounded-xl border-gray-400 border-2"
         ></video>
       </div>
