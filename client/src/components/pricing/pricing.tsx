@@ -11,7 +11,7 @@ const Pricing = () => {
           data-aos="fade-up"
           data-aos-delay="150"
         >
-          <div className="p-8 rounded-xl m-2  bg-gradient-to-br from-gray-200 text-black to-gray-50 flex-1">
+          <div className="p-8 rounded-xl m-2  bg-gradient-to-br from-gray-200  text-black to-gray-50 flex-1">
             <div className="text-left">
               <span className="text-primary font-semibold text-lg block mb-4">
                 Insurance
@@ -20,7 +20,7 @@ const Pricing = () => {
                 $0
                 <span className="text-base text-dark font-medium">/ month</span>
               </h2>
-              <p className="text-base text-dark pb-8 mb-8 border-b border-black">
+              <p className="text-base text-dark pb-8 mb-8 border-b border-gray-300">
                 We work with Medicare and most commercial health insurance
                 plans.
               </p>
