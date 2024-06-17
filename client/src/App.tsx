@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./App.css";
 import About from "./components/about/aboutSection";
 import CTA from "./components/cta/cta";
