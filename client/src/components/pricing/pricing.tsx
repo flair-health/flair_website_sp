@@ -25,16 +25,16 @@ const Pricing = () => {
                 plans.
               </p>
               <div className="mb-7">
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text-dark leading-loose mb-1">
                   Whole Health Evaluation
                 </li>
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text- text-dark leading-loose mb-1">
                   Personalized Meal Plan From Dietitian
                 </li>
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text-dark leading-loose mb-1">
                   Virtual Health Coaching Sessions
                 </li>
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text-dark leading-loose mb-1">
                   Access to the Flair App
                 </li>
               </div>
@@ -104,16 +104,16 @@ const Pricing = () => {
                 For direct, cash-pay practices or individual patients.
               </p>
               <div className="mb-7 text-left">
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text-dark leading-loose mb-1">
                   Whole Health Evaluation
                 </li>
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text-dark leading-loose mb-1">
                   Personalized Meal Plan From Dietitian
                 </li>
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text-dark leading-loose mb-1">
                   Virtual Health Coaching Sessions
                 </li>
-                <li className="text-base text-dark leading-loose mb-1">
+                <li className="md:text-base text-sm text-dark leading-loose mb-1">
                   Access to the Flair App
                 </li>
               </div>
