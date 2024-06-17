@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import About from "./components/about/aboutSection";
 import CTA from "./components/cta/cta";
@@ -7,8 +8,7 @@ import HeroSection from "./components/hero/heroSection";
 import Navbar from "./components/navbar";
 import Pricing from "./components/pricing/pricing";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
 
 AOS.init({
   duration: 500,
