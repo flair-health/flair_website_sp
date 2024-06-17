@@ -1,3 +1,4 @@
+import "./hero.css";
 const HeroSection = () => {
   return (
     <div>
@@ -34,14 +35,17 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+
       <div className="container mt-10">
-        <video
-          src="https://res.cloudinary.com/diftttclq/video/upload/v1718629473/gurl_1_mxfc1g.mp4"
-          autoPlay={true}
-          muted
-          loop
-          className="h-auto w-full max-h-[507px] object-cover md:h-[507px] rounded-xl border-gray-400 border-2"
-        ></video>
+        <div className="border-gray-200 border-[1px] shadow-sm shadow-blue-500/20 rounded-xl box-shadow">
+          <video
+            src="https://res.cloudinary.com/diftttclq/video/upload/v1718629473/gurl_1_mxfc1g.mp4"
+            autoPlay={true}
+            muted
+            loop
+            className="h-auto w-full max-h-[507px] object-cover md:h-[507px] rounded-xl "
+          ></video>
+        </div>
       </div>
       <div className="container md:p-0 text-xs md:text-center mt-2 md:mt-8 md:w-[30%] m-auto text-gray-500">
         Flair Health revolutionizes healthcare with cutting-edge technology,
