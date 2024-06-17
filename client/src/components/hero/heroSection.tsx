@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className="2xl:text-6xl text-4xl font-semibold font-serif">
           Integrated, Whole-Person Care Services For Clinics
         </div>
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between my-auto">
           <div
             className="2xl:text-md text-sm w-[85%] text-gray-500 font-normal"
             data-aos="fade-up"
