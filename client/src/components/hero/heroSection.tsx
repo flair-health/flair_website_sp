@@ -43,6 +43,11 @@ const HeroSection = () => {
           className="h-auto w-full max-h-[507px] object-cover md:h-[507px] rounded-xl border-gray-400 border-2"
         ></video>
       </div>
+      <div className="container md:p-0 text-xs md:text-center mt-2 md:mt-8 md:w-[30%] m-auto text-gray-500">
+        Flair Health revolutionizes healthcare with cutting-edge technology,
+        personalized care, and unparalleled convenience, ensuring optimal health
+        and wellness from anywhere.
+      </div>
     </div>
   );
 };
