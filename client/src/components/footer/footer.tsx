@@ -30,10 +30,10 @@ const Footer = () => {
         </p> */}
         <div className="footer-header">
           <img
-            src="/flair_logo.svg"
+            src="/flair_logo copy.svg"
             width={100}
             height={100}
-            className="manik mb-4 md:mb-0"
+            className="manik mb-4 md:mb-0 "
             alt=""
           />
           <hr />
@@ -46,8 +46,8 @@ const Footer = () => {
                   <h3>Office</h3>
 
                   <p>
-                    B-231, Ground Floor, Sahdeo Mahto Marg, S.K. Puri, Boaring
-                    Road, Patna - 800001
+                    B-231, Lorem Ipsum, Lorem Mahto Road, S.K. Road, Boaring
+                    Road, Ipsm - 800001
                   </p>
                   <h3>Mail</h3>
                   <h3 className="text-white">
@@ -55,13 +55,13 @@ const Footer = () => {
                       className="text-white"
                       href="mailto:satvika.galaxy@gmail.com"
                     >
-                      satvika.galaxy@gmail.com
+                      abc.123@gmail.com
                     </a>
                   </h3>
                   <p></p>
                   <p>
                     <a
-                      href="https://maps.app.goo.gl/eBSiWyGTJZC73qTb8"
+                      href=""
                       className="hover:underline flex gap-2 items-center"
                       target="_blank"
                     >
@@ -87,42 +87,22 @@ const Footer = () => {
             <div className="col_sub2">
               <div className="link-row">
                 <div className="footer-header_sub">
-                  <h3>Main Site</h3>
+                  <h3>Company</h3>
                 </div>
                 <div className="link-des">
-                  <a
-                    href="https://satvikagroup.in"
-                    className="footer-links"
-                    target="_blank"
-                  >
+                  <a href="" className="footer-links" target="_blank">
                     Home
                   </a>
-                  <a
-                    href="https://satvikagroup.in/about-satvika"
-                    className="footer-links"
-                    target="_blank"
-                  >
+                  <a href="" className="footer-links" target="_blank">
                     About Us
                   </a>
-                  <a
-                    href="https://satvikagroup.in/projects2"
-                    className="footer-links"
-                    target="_blank"
-                  >
+                  <a href="" className="footer-links" target="_blank">
                     Our Projects
                   </a>
-                  <a
-                    href="https://satvikagroup.in/about-satvika"
-                    className="footer-links"
-                    target="_blank"
-                  >
+                  <a href="" className="footer-links" target="_blank">
                     Our Mission
                   </a>
-                  <a
-                    href="https://satvikagroup.in/contact"
-                    className="footer-links"
-                    target="_blank"
-                  >
+                  <a href="" className="footer-links" target="_blank">
                     Contact Us
                   </a>
                 </div>
@@ -135,19 +115,13 @@ const Footer = () => {
 
                 <div className="link-des">
                   <a href="#testomonials" className="footer-links">
-                    Director&apos;s Message
+                    Founder&apos;s Message
                   </a>
                   <a href="#video" className="footer-links">
                     Project Architect
                   </a>
                   <a href="#" className="footer-links">
                     About Company
-                  </a>
-                  <a href="#id" className="footer-links">
-                    Icon Tower
-                  </a>
-                  <a href="#amenities" className="footer-links">
-                    Amenities
                   </a>
                 </div>
               </div>
@@ -157,18 +131,12 @@ const Footer = () => {
                 <div className="">
                   <h3 style={{ color: "gray" }}>Call Us</h3>
                   <div>
-                    <a
-                      href="tel:8271 42 4888"
-                      className="footer-links text-2xl"
-                    >
-                      8271 42 4888
+                    <a href="tel:" className="footer-links text-2xl">
+                      123456789
                     </a>
                     <div>
-                      <a
-                        href="tel:8271 42 3888"
-                        className="footer-links text-2xl"
-                      >
-                        8271 42 3888
+                      <a href="tel:" className="footer-links text-2xl">
+                        123456789{" "}
                       </a>
                     </div>
                   </div>
@@ -193,13 +161,14 @@ const Footer = () => {
             <p>
               Information on this website may change without notice. We are not
               liable for any inaccuracies, omissions, or alterations. Users
-              should verify details independently. This website is designed by{" "}
+              should verify details independently. This website is designed and
+              developed by{" "}
               <a
-                href="https://www.polardot.in"
+                href="https://github.com/mangalamraj/"
                 target="_blank"
                 className="text-[#fd7028]"
               >
-                Polardot.in.
+                Mangalam Raj
               </a>{" "}
               ©️ 2024. All rights reserved.
             </p>
@@ -211,8 +180,8 @@ const Footer = () => {
 
           <div className="col-12">
             <span className="copyright">
-              ©Copyright 2024-2026 Satvika Group. All Rights Reserved |
-              Designed with Polardot.in
+              ©Copyright 2024-2026 Lorem Ipsum. All Rights Reserved | Designed
+              by Mangalam Raj
             </span>
           </div>
         </div>

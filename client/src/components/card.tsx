@@ -11,7 +11,7 @@ const Card = (props: Tcard) => {
         <img src={props.url} className="w-6 m-auto"></img>
       </div>
       <div>{props.head}</div>
-      <div className="text-sm w-[80%] m-auto text-gray-600">{props.desc}</div>
+      <div className="text-sm w-[80%] m-auto text-gray-500">{props.desc}</div>
     </div>
   );
 };

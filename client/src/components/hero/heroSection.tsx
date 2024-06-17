@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <div>
-      <div className="relative w-full overflow-x-clip mt-10">
+      <div className="relative w-full overflow-x-clip mt-10 md:mt-14">
         <div className="absolute -left-[530px] -z-50 ">
           <img
             src="/HeroMesh.svg"
@@ -19,7 +19,10 @@ const HeroSection = () => {
           Integrated, Whole-Person Care Services For Clinics
         </div>
         <div className="flex flex-col justify-between">
-          <div className="2xl:text-md text-sm w-[85%] font-normal">
+          <div
+            className="2xl:text-md text-sm w-[85%] text-gray-500 font-normal"
+            data-aos="fade-up"
+          >
             Flair Health is a virtual extension for medical practices, providing
             high-touch nutrition and health coaching services to patients with
             chronic conditions.
