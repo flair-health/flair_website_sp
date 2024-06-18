@@ -2,3 +2,7 @@
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
         var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.lottie-container {
+    transform: translateZ(0); /* Enables hardware acceleration */
+    will-change: transform; /* Optimizes performance by informing the browser of potential changes */
+}
