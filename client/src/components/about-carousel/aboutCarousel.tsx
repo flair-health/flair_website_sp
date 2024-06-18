@@ -1,29 +1,26 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Swiper, SwiperSlide, SwiperClass } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./slide.css";
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import SwiperCard from "./swiperCard";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface NavigationOptions {
-  prevEl?: HTMLElement | string;
-  nextEl?: HTMLElement | string;
+  prevEl?: HTMLElement | string | null;
+  nextEl?: HTMLElement | string | null;
 }
 
 export default function AboutCarousel() {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
 
-  const onSwiper = (swiper: Swiper) => {
+  const onSwiper = (swiper: SwiperClass) => {
     if (swiper.params.navigation) {
       const navParams = swiper.params.navigation as NavigationOptions;
       navParams.prevEl = navigationPrevRef.current;
