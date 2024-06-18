@@ -30,8 +30,27 @@ const HeroSection = () => {
       </div>
       <div className="container 2xl:gap-8 gap-2 2xl:flex-row">
         <div className="flex">
-          <div className="2xl:text-7xl text-4xl font-semibold font-serif md:w-[60%]">
-            Integrated, Whole-Person Care Services For Clinics
+          <div className="2xl:text-6xl text-4xl font-bold md:w-[60%]">
+            Integrated, Whole-Person &nbsp;
+            <span className="inline-block">
+              Care
+              <svg
+                width="100"
+                height="12"
+                viewBox="0 0 97 12"
+                fill="none"
+                className="m-auto"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.10938 9.99996C16.5301 5.44512 55.2734 -1.84575 94.8806 5.42957"
+                  stroke="#FF9BFB"
+                  strokeWidth="2.9866"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </span>{" "}
+            Services For Clinics
           </div>
           <div className="absolute right-0 left-0 mx-auto sm:w-full sm:max-w-xs md:right-20 overflow-hidden hidden md:block md:overflow-visible">
             <Lottie

@@ -1,7 +1,7 @@
 const Pricing = () => {
   return (
     <div className="text-center mt-10 md:mt-20">
-      <h1 className="text-4xl font-serif uppercase mt-8 mb-4">Pricing</h1>
+      <h1 className="text-4xl font-semibold uppercase mt-8 mb-4">Pricing</h1>
       <p className="text-base mt-0 text-gray-500">
         Plans that work for everyone
       </p>
