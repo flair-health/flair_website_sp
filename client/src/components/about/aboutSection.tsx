@@ -18,21 +18,21 @@ const About = () => {
             head="For Employers"
             desc="Flair’s lifestyle-based care management services empower doctors to
         support patients with chronic"
-            url="user-solid.svg"
+            url="firefighter.gif"
           />
         </div>
         <div data-aos="fade-up" data-aos-delay="50">
           <Card
             head="For Patients"
             desc="Achieve your health goals with additional support from qualified dieticians and health coaches between doctor's visits."
-            url="person-solid.svg"
+            url="gestation.gif"
           />
         </div>
         <div data-aos="fade-up" data-aos-delay="150">
           <Card
             head="For Clinics"
             desc="Offer preventative health and lifestyle interventions to provide the best possible patient experience."
-            url="notes-medical-solid.svg"
+            url="hospital.gif"
             data-aos-delay="50"
           />
         </div>
