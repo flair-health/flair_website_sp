@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutCarousel from "./components/about-carousel/aboutCarousel";
 import About from "./components/about/aboutSection";
 import CTA from "./components/cta/cta";
 import FeatureSection from "./components/features/featureSection";
@@ -19,6 +20,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <AboutCarousel />
       <About />
       <FeatureSection />
       <CTA />

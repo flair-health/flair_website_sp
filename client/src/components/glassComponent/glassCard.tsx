@@ -2,7 +2,7 @@ import "./glasscard.css";
 const GlassCard = () => {
   return (
     <div className="border-[2px] md:w-1/2 p-8 my-8 rounded-md glass-card text-black">
-      <div className="text-lg bg">
+      <div className="md:text-xl text-lg font-semibold bg w-full md:w-[95%]">
         We provide solutions across the industry to learn from and improve every
         person’s experience with cancer. See how we’re:
       </div>
