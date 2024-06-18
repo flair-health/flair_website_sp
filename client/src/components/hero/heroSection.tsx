@@ -36,8 +36,8 @@ const HeroSection = () => {
           <div className="absolute right-0 left-0 mx-auto sm:w-full sm:max-w-xs md:right-20 overflow-hidden hidden md:block md:overflow-visible">
             <Lottie
               options={defaultOptions}
-              height={600} // Reduced height
-              width={600} // Reduced width
+              height={700} // Reduced height
+              width={700} // Reduced width
             />
           </div>
         </div>
