@@ -19,9 +19,14 @@ const HeroSection = () => {
             height="1000"
           />
         </div>
-        {/* <div className="absolute -right-[390px] -top-80 -z-50 ">
-          <img src="/HeroMesh.svg" alt="gradient-bg" width="900" height="900" />
-        </div> */}
+        <div className="absolute -right-[390px] -top-80 -z-50 hidden md:block">
+          <img
+            src="/HeroMesh.svg"
+            alt="gradient-bg"
+            width="match_parent"
+            height="wrap_content"
+          />
+        </div>
       </div>
       <div className="container  2xl:gap-8 gap-2  2xl:flex-row">
         <div className="flex ">
