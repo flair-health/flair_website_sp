@@ -10,7 +10,7 @@ const FeatureSection = () => {
   const [url, setUrl] = useState("goals.png");
 
   return (
-    <div className="container flex flex-col 2xl:items-center mt-10 md:mt-40 md:gap-4 gap-2">
+    <div className="container flex flex-col 2xl:items-center mt-10 md:mt-32 md:gap-4 gap-2">
       <div className="2xl:text-4xl text-2xl 2xl:w-[70%] font-semibold 2xl:text-center">
         How It Works
       </div>
