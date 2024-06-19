@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import CTAButton from "./button";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,9 +26,7 @@ const Navbar = () => {
           <div>For Patients</div>
           <div>For Clinics</div>
         </div>
-        <div className="bg-blue-400 text-white p-1 rounded-2xl px-4 hidden md:block">
-          Get Started
-        </div>
+        <CTAButton title="Contact Us" />
         <button
           className="md:hidden flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-black hover:border-black"
           onClick={toggleMenu}
@@ -47,9 +46,7 @@ const Navbar = () => {
           <div>About</div>
           <div>For Patients</div>
           <div>For Clinics</div>
-          <div className="bg-blue-400 text-white p-1 rounded-2xl px-4">
-            Get Started
-          </div>
+          <CTAButton title="Contact Us" />
         </div>
       )}
     </div>

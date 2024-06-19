@@ -10,6 +10,7 @@ import Pricing from "./components/pricing/pricing";
 import MarqueeEffect from "./components/collab/collab";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Testomials from "./components/testimonials/testimonialSection";
 
 AOS.init({
   duration: 500,
@@ -28,6 +29,7 @@ function App() {
       <FeatureSection />
       <CTA />
       <Pricing />
+      <Testomials />
       <Footer />
     </>
   );

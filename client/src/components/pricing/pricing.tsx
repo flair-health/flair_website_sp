@@ -1,7 +1,9 @@
+import CTAButton from "../button";
+
 const Pricing = () => {
   return (
-    <div className="text-center mt-10 md:mt-20">
-      <h1 className="text-4xl font-semibold uppercase mt-8 mb-4">Pricing</h1>
+    <div className="text-center mt-10 md:mt-20 pb-20">
+      <h1 className="text-4xl font-semibold  mt-8 mb-4">Pricing</h1>
       <p className="text-base mt-0 text-gray-500">
         Plans that work for everyone
       </p>
@@ -166,11 +168,8 @@ const Pricing = () => {
       <p className="text-base text-gray-500 mb-2">
         Need something different? No problem!
       </p>
-      <a
-        href="#"
-        className="inline-block py-2 px-3 rounded-3xl uppercase font-bold text-white bg-blue-400 transition-opacity duration-300 hover:opacity-70 mb-12"
-      >
-        Get in touch
+      <a href="#">
+        <CTAButton title="Connect With Us" />
       </a>
     </div>
   );
