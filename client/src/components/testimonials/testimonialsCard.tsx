@@ -28,12 +28,19 @@ const TestimonialCard = () => {
       }}
     >
       <div className="p-8 cursor-pointer">
-        <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-          <AvatarFallback>CN</AvatarFallback>
-        </Avatar>
+        <div className="flex gap-2 jus items-center pb-2">
+          <Avatar>
+            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
+          <div className="flex flex-col">
+            <div className="text-black text-xl font-medium">John Doe</div>
+            <div className="text-gray-500 text-left text-xs font-medium">
+              @JohnDoe
+            </div>
+          </div>
+        </div>
         <div className="text-left">
-          <div className="text-black mt-2 text-2xl font-medium">John Doe</div>
           <div className=" mt-2 text-md text-gray-500">
             Urban design draws together the many strands of place-making,
             environmental stewardship, social equity and economic viability into
