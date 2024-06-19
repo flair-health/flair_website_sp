@@ -32,10 +32,10 @@ export default function AboutCarousel() {
 
   return (
     <div className="container md:p-0 mt-20 relative" id="about">
-      <div className="text-center text-4xl font-semibold  mt-8 mb-4">
+      <div className="2xl:text-4xl text-2xl 2xl:w-[70%] font-semibold md:text-center m-auto">
         About Us
       </div>
-      <p className="text-base mt-0 text-gray-500 m-auto text-center w-[40%]">
+      <p className="text-base mt-0 text-gray-500 m-auto md:text-center md:w-[40%] text-left">
         Discover Our Mission, Values, and the Dedicated Team Driving Our
         Commitment to Excellence and Innovation
       </p>

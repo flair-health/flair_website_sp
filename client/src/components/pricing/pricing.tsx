@@ -2,9 +2,11 @@ import CTAButton from "../button";
 
 const Pricing = () => {
   return (
-    <div className="text-center mt-10 md:mt-20 pb-20" id="pricing">
-      <h1 className="text-4xl font-semibold  mt-8 mb-4">Pricing</h1>
-      <p className="text-base mt-0 text-gray-500">
+    <div className=" mt-10 md:mt-20 pb-20" id="pricing">
+      <h1 className="container 2xl:text-4xl text-2xl 2xl:w-[70%] font-semibold md:text-center">
+        Pricing
+      </h1>
+      <p className="container text-base md:text-center mt-0 text-gray-500">
         Plans that work for everyone
       </p>
       <div className="flex justify-center flex-wrap my-8">
@@ -165,12 +167,14 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      <p className="text-base text-gray-500 mb-2">
+      <p className="container text-center text-base text-gray-500 mb-2">
         Need something different? No problem!
       </p>
-      <a href="#">
-        <CTAButton title="Connect With Us" />
-      </a>
+      <div className="items-center flex">
+        <a href="#" className="m-auto">
+          <CTAButton title="Connect With Us" />
+        </a>
+      </div>
     </div>
   );
 };
