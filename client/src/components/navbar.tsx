@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import CTAButton from "./button";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,9 +23,42 @@ const Navbar = () => {
           <img src="flair_logo.svg" width="120px" alt="Logo" />
         </a>
         <div className="gap-20 font-medium hidden md:flex">
-          <div>About</div>
-          <div>For Patients</div>
-          <div>For Clinics</div>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="about"
+            className="hover:underline cursor-pointer"
+          >
+            About
+          </Link>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="functionality"
+            className="hover:underline cursor-pointer"
+          >
+            Functionality
+          </Link>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="pricing"
+            className="hover:underline cursor-pointer"
+          >
+            Pricing
+          </Link>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="testimonials"
+            className="hover:underline cursor-pointer"
+          >
+            Testimonials
+          </Link>
         </div>
         <div className="hidden md:block">
           <CTAButton title="Contact Us" />
@@ -45,10 +79,54 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden flex flex-col items-center bg-white shadow-sm gap-4 h-screen p-4 absolute w-full top-20 left-0">
-          <div>About</div>
-          <div>For Patients</div>
-          <div>For Clinics</div>
-          <CTAButton title="Contact Us" />
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="about"
+            className="hover:underline cursor-pointer"
+            onClick={() => {
+              setIsMenuOpen(false);
+            }}
+          >
+            About
+          </Link>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="functionality"
+            className="hover:underline cursor-pointer"
+            onClick={() => {
+              setIsMenuOpen(false);
+            }}
+          >
+            Functionality
+          </Link>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="pricing"
+            className="hover:underline cursor-pointer"
+            onClick={() => {
+              setIsMenuOpen(false);
+            }}
+          >
+            Pricing
+          </Link>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="testimonials"
+            className="hover:underline cursor-pointer"
+            onClick={() => {
+              setIsMenuOpen(false);
+            }}
+          >
+            Testimonials
+          </Link>
         </div>
       )}
     </div>

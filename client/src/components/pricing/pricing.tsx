@@ -2,7 +2,7 @@ import CTAButton from "../button";
 
 const Pricing = () => {
   return (
-    <div className="text-center mt-10 md:mt-20 pb-20">
+    <div className="text-center mt-10 md:mt-20 pb-20" id="pricing">
       <h1 className="text-4xl font-semibold  mt-8 mb-4">Pricing</h1>
       <p className="text-base mt-0 text-gray-500">
         Plans that work for everyone
