@@ -26,7 +26,9 @@ const Navbar = () => {
           <div>For Patients</div>
           <div>For Clinics</div>
         </div>
-        <CTAButton title="Contact Us" />
+        <div className="hidden md:block">
+          <CTAButton title="Contact Us" />
+        </div>
         <button
           className="md:hidden flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-black hover:border-black"
           onClick={toggleMenu}
