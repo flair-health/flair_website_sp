@@ -4,7 +4,7 @@ import animationData from "../../lotties/animation-9yyzZ.json";
 
 const HeroSection = () => {
   const defaultOptions: Options = {
-    loop: true,
+    loop: false,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
