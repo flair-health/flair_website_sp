@@ -29,13 +29,23 @@ const Footer = () => {
           not be available for all countries or regions. View the complete list.
         </p> */}
         <div className="footer-header">
-          <img
-            src="/flair_logo copy.svg"
-            width={100}
-            height={100}
-            className="manik mb-4 md:mb-0 "
-            alt=""
-          />
+          <div className="flex w-full items-center justify-between">
+            <img
+              src="/flair_logo copy.svg"
+              width={100}
+              height={100}
+              className="manik  md:mb-0 "
+              alt=""
+            />
+            <div className="flex items-center flex-col justify-start ">
+              <div className="w-full text-base -mb-6 ml-4">
+                Backed by : &nbsp;
+              </div>
+              <div className="flex gap-2">
+                <img src="/yc.svg" className="m-0 p-0 w-[200px] h-[100px] " />
+              </div>
+            </div>
+          </div>
           <hr />
         </div>
         <div className="main">
@@ -152,7 +162,16 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <div className="container pl-0 pt-2 md:p-0">
+            <img
+              src="https://www.hipaatraining.com/Content/images/badges/branded/badge4-orig.svg"
+              className="m-0 p-0"
+              width="80px"
+              height="50px"
+            />
+          </div>
         </div>
+
         <div className="disclaimer">
           <div className="head_disc">
             <h3>Disclaimer</h3>

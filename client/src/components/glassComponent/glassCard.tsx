@@ -3,13 +3,15 @@ const GlassCard = () => {
   return (
     <div className="border-[2px] md:w-1/2 p-8 my-8 rounded-md glass-card text-black">
       <div className="md:text-xl text-lg font-semibold bg w-full md:w-[95%]">
-        We provide solutions across the industry to learn from and improve every
-        person’s experience with cancer. See how we’re:
+        Flair Health is a virtual extension for medical practices treating
+        patients with inflammatory conditions. Our solutions elevate the
+        understanding and care experience for those affected by autoimmune
+        diseases.
       </div>
       <div className="text-lg">
         <div className="flex mb-2 py-2 items-center justify-between border-b-[1px] border-gray-300 hover:translate-x-1 cursor-pointer hover:animate-in ease-in">
           <div className="opacity-60 hover:opacity-100">
-            Designing and operating better clinical trials
+            Nutrition and lifestyle management platform for patients{" "}
           </div>
           <div className="opacity-60">
             <svg
@@ -33,7 +35,7 @@ const GlassCard = () => {
         </div>
         <div className="flex mb-2 py-2 items-center justify-between border-b-[1px] border-gray-300 hover:translate-x-1 cursor-pointer hover:animate-in ease-in">
           <div className="opacity-60 hover:opacity-100">
-            Designing and operating better clinical trials
+            Medication navigation and support service{" "}
           </div>
           <div className="opacity-60 ">
             <svg
@@ -57,7 +59,7 @@ const GlassCard = () => {
         </div>
         <div className="flex mb-2 py-2 items-center justify-between border-b-[1px] border-gray-300 hover:translate-x-1 cursor-pointer hover:animate-in ease-in">
           <div className="opacity-60 hover:opacity-100">
-            Designing and operating better clinical trials
+            Close the gap between care and research{" "}
           </div>
           <div className="opacity-60">
             <svg

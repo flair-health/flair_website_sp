@@ -4,12 +4,12 @@ import styled, { keyframes, css } from "styled-components";
 
 const MarqueeEffect = () => {
   const row1 = [
-    "https://konstructly.com/images/atlantic2.png",
-    "https://konstructly.com/images/drywall.png",
-    "https://konstructly.com/images/mjevans_group.png",
-    "https://konstructly.com/images/mcloughlin.png",
-    "https://konstructly.com/images/stratton.png",
-    "https://konstructly.com/images/regen_facades.png",
+    "https://chicagoarthritis.com/wp-content/uploads/2022/08/chicago-arthritis-logo.svg",
+    "/UnabridgedMD.webp",
+    "/valley.png",
+    "https://chicagoarthritis.com/wp-content/uploads/2022/08/chicago-arthritis-logo.svg",
+    "/UnabridgedMD.webp",
+    "/valley.png",
   ];
 
   return (
@@ -19,14 +19,14 @@ const MarqueeEffect = () => {
           <MarqueeGroup>
             {row1.map((el, index) => (
               <ImageGroup key={index}>
-                <Image src={el} />
+                <Image src={el} alt="companies" />
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
             {row1.map((el, index) => (
               <ImageGroup key={index + row1.length}>
-                <Image src={el} />
+                <Image src={el} alt="companies" />
               </ImageGroup>
             ))}
           </MarqueeGroup>
