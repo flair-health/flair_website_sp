@@ -3,10 +3,8 @@ const GlassCard = () => {
   return (
     <div className="border-[2px] md:w-1/2 p-8 my-8 rounded-md glass-card text-black">
       <div className="md:text-xl text-lg font-semibold bg w-full md:w-[95%]">
-        Flair Health is a virtual extension for medical practices treating
-        patients with inflammatory conditions. Our solutions elevate the
-        understanding and care experience for those affected by autoimmune
-        diseases.
+        Our solutions elevate the understanding and care experience for those
+        affected by autoimmune diseases.
       </div>
       <div className="text-lg">
         <div className="flex mb-2 py-2 items-center justify-between border-b-[1px] border-gray-300 hover:translate-x-1 cursor-pointer hover:animate-in ease-in">

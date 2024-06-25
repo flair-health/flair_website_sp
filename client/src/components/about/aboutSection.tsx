@@ -24,14 +24,15 @@ const About = () => {
         <div data-aos="fade-up" data-aos-delay="50">
           <Card
             head="For Patients"
-            desc="Achieve your health goals with additional support from qualified dieticians and health coaches between doctor's visits."
+            desc="Make progress towards your health coals with additional support from qualified dieticians and health coaches between doctor's visits.
+"
             url="gestation.gif"
           />
         </div>
         <div data-aos="fade-up" data-aos-delay="150">
           <Card
             head="For Clinics"
-            desc="Offer preventative health and lifestyle interventions to provide the best possible patient experience."
+            desc="Provide the best possible patient experience and generate additional revenue, with low admin overhead."
             url="hospital.gif"
             data-aos-delay="50"
           />

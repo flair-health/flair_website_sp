@@ -9,7 +9,7 @@ export default function CTAButton(props: Tbutton) {
     <Button
       asChild
       variant="outline"
-      className="border-blue-500/50 dark:border-cornblue-500/80 text-cornblue-500 hover:text-cornblue-500 group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white"
+      className="border-[#14a8e1]  dark:border-cornblue-500/80 text-[#14a8e1] hover:text-cornblue-500 group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white"
     >
       <a
         target="_blank"

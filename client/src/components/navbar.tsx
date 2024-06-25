@@ -30,7 +30,7 @@ const Navbar = () => {
             to="about"
             className="hover:underline cursor-pointer"
           >
-            About
+            About Us
           </Link>
           <Link
             activeClass="active"
@@ -39,7 +39,7 @@ const Navbar = () => {
             to="functionality"
             className="hover:underline cursor-pointer"
           >
-            Functionality
+            For Patients
           </Link>
           <Link
             activeClass="active"
@@ -48,7 +48,7 @@ const Navbar = () => {
             to="pricing"
             className="hover:underline cursor-pointer"
           >
-            Pricing
+            For Clinics
           </Link>
           <Link
             activeClass="active"
@@ -57,7 +57,7 @@ const Navbar = () => {
             to="testimonials"
             className="hover:underline cursor-pointer"
           >
-            Testimonials
+            For Pharma
           </Link>
         </div>
         <div className="hidden md:block">
@@ -78,7 +78,7 @@ const Navbar = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden flex flex-col items-center bg-white shadow-sm gap-4 h-screen p-4 absolute w-full top-20 left-0">
+        <div className="md:hidden flex flex-col items-center text-2xl mt-10 bg-white shadow-sm gap-4 h-screen p-4 absolute w-full top-20 left-0">
           <Link
             activeClass="active"
             smooth
@@ -89,7 +89,7 @@ const Navbar = () => {
               setIsMenuOpen(false);
             }}
           >
-            About
+            About Us
           </Link>
           <Link
             activeClass="active"
@@ -101,7 +101,7 @@ const Navbar = () => {
               setIsMenuOpen(false);
             }}
           >
-            Functionality
+            For Patients
           </Link>
           <Link
             activeClass="active"
@@ -113,7 +113,7 @@ const Navbar = () => {
               setIsMenuOpen(false);
             }}
           >
-            Pricing
+            For Clinics
           </Link>
           <Link
             activeClass="active"
@@ -125,7 +125,7 @@ const Navbar = () => {
               setIsMenuOpen(false);
             }}
           >
-            Testimonials
+            For Pharma
           </Link>
         </div>
       )}
