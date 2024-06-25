@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="container flex flex-col 2xl:items-center mt-10 md:mt-40 md:gap-4 gap-2">
       <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold 2xl:text-center">
-        Flair’s lifestyle-based care management services empower doctors to
-        support patients with chronic conditions between visits, covered by
+        Flair Health helps rheumatology practices provide patients with
+        personalized nutrition and health coaching support, covered by
         insurance.
       </div>
       <div className="2xl:text-center text-sm font-normal text-gray-500 2xl:text-base 2xl:w-[40%] mb-8">

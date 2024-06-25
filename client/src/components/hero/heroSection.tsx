@@ -1,7 +1,6 @@
 import GlassCard from "../glassComponent/glassCard";
 import Lottie, { Options } from "react-lottie";
 import animationData from "../../lotties/animation-9yyzZ.json";
-import CTAButton from "../button";
 
 const HeroSection = () => {
   const defaultOptions: Options = {
