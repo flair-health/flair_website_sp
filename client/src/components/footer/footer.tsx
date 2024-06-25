@@ -55,17 +55,14 @@ const Footer = () => {
                 <div className="logo-des">
                   <h3>Office</h3>
 
-                  <p>
-                    B-231, Lorem Ipsum, Lorem Mahto Road, S.K. Road, Boaring
-                    Road, Ipsm - 800001
-                  </p>
+                  <p>San Francisco, CA</p>
                   <h3>Mail</h3>
                   <h3 className="text-white">
                     <a
                       className="text-white"
-                      href="mailto:satvika.galaxy@gmail.com"
+                      href="mailto:hello@flairhealth.com"
                     >
-                      abc.123@gmail.com
+                      hello@flairhealth.com
                     </a>
                   </h3>
                   <p></p>
@@ -141,14 +138,12 @@ const Footer = () => {
                 <div className="">
                   <h3 style={{ color: "gray" }}>Call Us</h3>
                   <div>
-                    <a href="tel:" className="footer-links text-2xl">
-                      123456789
+                    <a
+                      href="tel:(650) 862-2930"
+                      className="footer-links text-2xl"
+                    >
+                      (650) 862-2930
                     </a>
-                    <div>
-                      <a href="tel:" className="footer-links text-2xl">
-                        123456789{" "}
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div className="footer-links pt-4">

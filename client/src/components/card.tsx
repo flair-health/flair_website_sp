@@ -6,7 +6,7 @@ type Tcard = {
 
 const Card = (props: Tcard) => {
   return (
-    <div className="p-4 flex flex-col gap-2 border-[0.5px] border-gray-200 md:max-w-[500px] glass-card text-center rounded-md min-h-[200px] max-h-[400px]">
+    <div className="p-4 flex flex-col gap-2 border-[0.5px] border-gray-200 md:max-w-[500px] glass-card text-center rounded-3xl min-h-[200px] max-h-[400px]">
       <div className="m-auto">
         <img
           src={props.url}

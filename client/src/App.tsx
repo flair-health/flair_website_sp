@@ -1,37 +1,18 @@
 import "./App.css";
-import AboutCarousel from "./components/about-carousel/aboutCarousel";
-import About from "./components/about/aboutSection";
-import CTA from "./components/cta/cta";
-import FeatureSection from "./components/features/featureSection";
-import Footer from "./components/footer/footer";
-import HeroSection from "./components/hero/heroSection";
-import Navbar from "./components/navbar";
-import Pricing from "./components/pricing/pricing";
-import MarqueeEffect from "./components/collab/collab";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Testomials from "./components/testimonials/testimonialSection";
-
-AOS.init({
-  duration: 500,
-  once: true,
-});
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import AboutUs from "./pages/about";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <HeroSection />
-      <AboutCarousel />
-
-      <About />
-      <MarqueeEffect />
-      <FeatureSection />
-      <CTA />
-      <Pricing />
-      <Testomials />
-      <Footer />
-    </>
+    <div className="">
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/about" element={<AboutUs />}></Route>
+      </Routes>
+    </div>
   );
 }
 

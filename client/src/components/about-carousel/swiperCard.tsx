@@ -1,7 +1,7 @@
 const SwiperCard = () => {
   return (
     <div className="flex justify-center flex-col md:flex-row gap-2 p-8">
-      <div className="border-[2px]  p-8  rounded-md glass-card text-black max-w-[400px]">
+      <div className="border-[2px]  p-8  rounded-3xl glass-card text-black max-w-[400px]">
         <img src="/consultation.jpg" className="w-full max-w-[400px]" />
         <div className="text-left my-2 md:text-xl text-lg font-semibold">
           Evaluation
@@ -16,7 +16,7 @@ const SwiperCard = () => {
         </div>
       </div>
       <div className=" md:flex-col gap-2 hidden md:flex">
-        <div className="border-[2px] max-w-[300px] p-8 text-sm text-gray-400 rounded-md glass-card ">
+        <div className="border-[2px] max-w-[300px] p-8 text-sm text-gray-400 rounded-3xl glass-card ">
           <div className="text-left my-2 md:text-xl text-lg font-semibold text-black">
             Evaluation
           </div>
@@ -25,7 +25,7 @@ const SwiperCard = () => {
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo
         </div>
-        <div className="border-[2px] max-w-[300px] p-8 text-sm text-gray-400 rounded-md glass-card">
+        <div className="border-[2px] max-w-[300px] p-8 text-sm text-gray-400 rounded-3xl glass-card">
           <div className="text-left my-2 md:text-xl text-lg font-semibold text-black">
             Results
           </div>

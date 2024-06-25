@@ -15,7 +15,7 @@ const Pricing = () => {
           data-aos="fade-up"
           data-aos-delay="150"
         >
-          <div className="p-8 rounded-xl m-2  bg-gradient-to-br from-gray-200  text-black to-gray-50 flex-1">
+          <div className="p-8 rounded-3xl m-2  bg-gradient-to-br from-gray-200  text-black to-gray-50 flex-1">
             <div className="text-left">
               <span className="text-primary font-semibold text-lg block mb-4">
                 Insurance
@@ -87,7 +87,7 @@ const Pricing = () => {
           </div>
 
           <div
-            className="p-8 text-left rounded-xl text-white m-2   bg-gradient-to-br from-teal-500 to-blue-700  flex-1"
+            className="p-8 text-left rounded-3xl text-white m-2   bg-gradient-to-br from-teal-500 to-blue-700  flex-1"
             data-aos="fade-up"
             data-aos-delay="250"
           >

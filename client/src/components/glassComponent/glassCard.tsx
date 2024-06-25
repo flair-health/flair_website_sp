@@ -1,7 +1,10 @@
 import "./glasscard.css";
 const GlassCard = () => {
   return (
-    <div className="border-[2px] md:w-1/2 p-8 my-8 rounded-md glass-card text-black">
+    <div
+      className="border-[2px] md:w-1/2 p-8 my-8 rounded-3xl glass-card text-black"
+      data-aos="fade-up"
+    >
       <div className="md:text-xl text-lg font-semibold bg w-full md:w-[95%]">
         Our solutions elevate the understanding and care experience for those
         affected by autoimmune diseases.

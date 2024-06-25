@@ -11,9 +11,15 @@ const Testomials = () => {
           Hear from our customers
         </div>
         <div className="flex justify-between md:gap-8 gap-2 flex-col lg:flex-row">
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
+          <div data-aos="fade-up">
+            <TestimonialCard />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="50">
+            <TestimonialCard />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="150">
+            <TestimonialCard />
+          </div>
         </div>
       </div>
     </div>
