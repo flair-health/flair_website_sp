@@ -46,7 +46,7 @@ const AboutUs = () => {
       >
         <iframe
           src="https://www.youtube.com/embed/j0bnCxfp7e0"
-          className="rounded-2xl w-full h-full border-none"
+          className="container rounded-2xl w-full h-full border-none"
           allow="autoplay; encrypted-media"
           title="Tennr Builds Specialized Language Models on AWS to Help Industry Customers Automate"
         ></iframe>
