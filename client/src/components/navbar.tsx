@@ -2,15 +2,25 @@
 
 import { useState } from "react";
 import CTAButton from "./button";
+import ContactModal from "./contectModal"; // Import the ContactModal component
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to manage modal visibility
   const [white, setWhite] = useState(30);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
     setWhite(white === 100 ? 30 : 100);
+  };
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
   return (
@@ -55,7 +65,8 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="hidden md:block">
-          <CTAButton title="Contact Us" />
+          <CTAButton title="Contact Us" onClick={openModal} />{" "}
+          {/* Open the modal on click */}
         </div>
         <button
           className="md:hidden flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-black hover:border-black"
@@ -123,6 +134,8 @@ const Navbar = () => {
           </Link>
         </div>
       )}
+      <ContactModal isOpen={isModalOpen} onClose={closeModal} />{" "}
+      {/* Add the modal */}
     </div>
   );
 };
