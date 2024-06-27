@@ -23,15 +23,9 @@ const Navbar = () => {
           <img src="flair_logo.svg" width="120px" alt="Logo" />
         </a>
         <div className="gap-20 font-medium hidden md:flex">
-          <Link
-            activeClass="active"
-            smooth
-            spy
-            to="about"
-            className="hover:underline cursor-pointer"
-          >
+          <a href="/about" className="hover:underline cursor-pointer">
             About Us
-          </Link>
+          </a>
           <Link
             activeClass="active"
             smooth

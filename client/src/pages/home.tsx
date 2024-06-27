@@ -25,6 +25,7 @@ function Home() {
       <VideoSection />
       <AboutCarousel />
       <About />
+
       <MarqueeEffect />
       <FeatureSection />
       <CTA />

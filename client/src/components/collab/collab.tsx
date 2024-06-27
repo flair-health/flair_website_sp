@@ -13,27 +13,36 @@ const MarqueeEffect = () => {
   ];
 
   return (
-    <AppContainer>
-      <Wrapper>
-        <Marquee>
-          <MarqueeGroup>
-            {row1.map((el, index) => (
-              <ImageGroup key={index}>
-                <Image src={el} alt="companies" />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup>
-          <MarqueeGroup>
-            {row1.map((el, index) => (
-              <ImageGroup key={index + row1.length}>
-                <Image src={el} alt="companies" />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup>
-        </Marquee>
-        <Marquee></Marquee>
-      </Wrapper>
-    </AppContainer>
+    <div className="container md:my-20">
+      <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pt-20 pt-10 md:pb-4 pb-2">
+        Our Customers
+      </div>
+      <div className="md:text-center text-sm font-normal text-gray-500 2xl:text-base 2xl:w-[60%]  m-auto">
+        Flair Health is working with patients from rheumatology private
+        practices across the country.
+      </div>
+      <AppContainer>
+        <Wrapper>
+          <Marquee>
+            <MarqueeGroup>
+              {row1.map((el, index) => (
+                <ImageGroup key={index}>
+                  <Image src={el} alt="companies" />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup>
+            <MarqueeGroup>
+              {row1.map((el, index) => (
+                <ImageGroup key={index + row1.length}>
+                  <Image src={el} alt="companies" />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup>
+          </Marquee>
+          <Marquee></Marquee>
+        </Wrapper>
+      </AppContainer>
+    </div>
   );
 };
 
@@ -41,7 +50,6 @@ export default MarqueeEffect;
 
 const AppContainer = styled.div`
   color: #000000;
-  margin-top: 50px;
   position: relative;
   display: flex;
   align-items: center;
