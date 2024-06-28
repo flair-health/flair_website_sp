@@ -2,12 +2,37 @@ import CTAButton from "../components/button";
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
 import OurTeamSection from "../components/ourteam/ourTeamSection";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "../../components/ui/breadcrumb";
+import { Home } from "lucide-react";
 
 const AboutUs = () => {
   return (
     <>
       <Navbar />
       <div className="bg-[#667BC6]">
+        <Breadcrumb className="container pt-10">
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <BreadcrumbLink href="/" className="text-gray-300 ">
+                <Home className="w-[15px]" />
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+
+            <BreadcrumbSeparator className="text-gray-300" />
+            <BreadcrumbItem>
+              <BreadcrumbPage className="text-gray-300 underline font-medium">
+                About us
+              </BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
         <div className="container py-20 flex text-white">
           <div className="">
             <div className=" font-semibold  2xl:text-6xl w-full text-2xl pb-4">

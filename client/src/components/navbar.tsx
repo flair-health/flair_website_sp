@@ -84,18 +84,9 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden flex flex-col items-center text-2xl mt-10 bg-white shadow-sm gap-4 h-screen p-4 absolute w-full top-10 left-0">
-          <Link
-            activeClass="active"
-            smooth
-            spy
-            to="about"
-            className="hover:underline cursor-pointer"
-            onClick={() => {
-              setIsMenuOpen(false);
-            }}
-          >
+          <a href="/about" className="hover:underline cursor-pointer">
             About Us
-          </Link>
+          </a>
           <Link
             activeClass="active"
             smooth
