@@ -83,7 +83,7 @@ const Navbar = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden flex flex-col items-center text-2xl mt-10 bg-white shadow-sm gap-4 h-screen p-4 absolute w-full top-20 left-0">
+        <div className="md:hidden flex flex-col items-center text-2xl mt-10 bg-white shadow-sm gap-4 h-screen p-4 absolute w-full top-10 left-0">
           <Link
             activeClass="active"
             smooth
