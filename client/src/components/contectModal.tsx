@@ -3,6 +3,7 @@ import { Button } from "../../components/ui/button";
 import { useForm, ValidationError } from "@formspree/react";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Loader } from "lucide-react";
 
 type ContactModalProps = {
   isOpen: boolean;
@@ -17,7 +18,8 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
       <div className="h-screen w-screen">
         {toast.success("Form Submitted", {
           position: "top-right",
-          autoClose: 500,
+          onClose,
+          autoClose: 1000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -25,7 +27,6 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           progress: undefined,
           theme: "light",
           transition: Bounce,
-          onClose,
         })}
       </div>;
     }
@@ -119,10 +120,10 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           <div className="">
             <button
               type="submit"
-              className="bg-[#14a8e1] text-white w-full px-4 py-2 rounded my-2"
+              className={`${state.submitting ? "bg-gray-400" : "bg-[#14a8e1]"} text-white w-full px-4 py-2 rounded my-2 `}
               disabled={state.submitting}
             >
-              Submit
+              {state.submitting ? <Loader className="m-auto" /> : "Submit"}
             </button>
             <button
               type="button"
