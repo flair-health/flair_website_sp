@@ -94,7 +94,7 @@ const Pricing = () => {
             <div className="">
               <span className="text-primary font-semibold text-lg block mb-4">
                 {" "}
-                Out Of Pocket{" "}
+                Self Pay{" "}
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
                 {" "}
