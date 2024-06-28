@@ -13,7 +13,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="pb-20">
+    <div className="md:pb-20 pb-10">
       <div className="relative w-full overflow-x-clip mt-10 md:mt-14"></div>
       <div className="container 2xl:gap-8 gap-2 2xl:flex-row">
         <div className="flex">

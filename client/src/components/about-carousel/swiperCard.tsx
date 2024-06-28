@@ -10,9 +10,6 @@ const SwiperCard = () => {
           Generate robust evidence and insights by partnering with Flatiron's
           expert team of clinicians, scientists, and health data analysts. Sed
           ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-          inventore veritatis et quasi architecto beatae vitae dicta sunt
-          explicabo
         </div>
       </div>
       <div className=" md:flex-col gap-2 hidden md:flex">

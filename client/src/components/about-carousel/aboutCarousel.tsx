@@ -31,7 +31,7 @@ export default function AboutCarousel() {
   };
 
   return (
-    <div className="container md:p-0 mt-32 relative " id="about">
+    <div className="container md:p-0 md:mt-32 mt-10 relative " id="about">
       <div className="2xl:text-4xl text-2xl 2xl:w-[70%] font-semibold md:pb-4 pb-2 md:text-center m-auto">
         About Us
       </div>
