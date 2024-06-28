@@ -1,5 +1,8 @@
 import React from "react";
 import { Button } from "../../components/ui/button";
+import { useForm, ValidationError } from "@formspree/react";
+import { ToastContainer, toast, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 type ContactModalProps = {
   isOpen: boolean;
@@ -7,6 +10,27 @@ type ContactModalProps = {
 };
 
 const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
+  const [state, handleSubmit] = useForm("xqazzvwb");
+
+  React.useEffect(() => {
+    if (state.succeeded) {
+      <div className="h-screen w-screen">
+        {toast.success("Form Submitted", {
+          position: "top-right",
+          autoClose: 500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Bounce,
+          onClose,
+        })}
+      </div>;
+    }
+  }, [state.succeeded]);
+
   if (!isOpen) return null;
 
   return (
@@ -39,36 +63,64 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           We will reach out to you as soon as possible. Please fill out the
           details below.
         </div>
-        <form className="flex flex-col gap-4">
+        <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
           <input
             type="text"
             placeholder="Name"
+            name="name"
+            required
             className="border-b-[0.5px] p-2 rounded"
           />
           <input
             type="email"
             placeholder="Email"
+            name="email"
+            required
             className="border-b-[0.5px] p-2 rounded"
           />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+
           <input
             type="text"
             placeholder="Organization"
+            name="organization"
             className="border-b-[0.5px] p-2 rounded"
           />
+          <ValidationError
+            prefix="Organization"
+            field="organization"
+            errors={state.errors}
+          />
+
           <input
             type="tel"
             placeholder="Phone Number"
+            name="phone number"
             className="border-b-[0.5px] p-2 rounded"
           />
+          <ValidationError
+            prefix="Phone Number"
+            field="phone number"
+            errors={state.errors}
+          />
+
           <textarea
             placeholder="Optional Message"
+            name="message"
             className="border-b-[0.5px] p-2 rounded"
             rows={5}
           />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+
           <div className="">
             <button
               type="submit"
               className="bg-[#14a8e1] text-white w-full px-4 py-2 rounded my-2"
+              disabled={state.submitting}
             >
               Submit
             </button>
@@ -81,6 +133,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
             </button>
           </div>
         </form>
+        <ToastContainer />
       </div>
     </div>
   );
