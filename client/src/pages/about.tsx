@@ -23,7 +23,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="container  w-full  py-10">
+      <div className="container  w-full  md:py-20 py-10">
         <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl">
           What we do?
         </div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
       </div>
       <div
         id="w-node-_6230c4da-7d66-19a2-84f5-770748d1424a-509fcf08"
-        className="2xl:w-[60%] m-auto mb-10 md:h-[600px] h-[250px] youtube-video  2xl:pb-8 pb-4"
+        className="2xl:w-[60%] m-auto mb-10 md:h-[600px] h-[320px] youtube-video  2xl:pb-22 pb-20"
       >
         <iframe
           src="https://www.youtube.com/embed/j0bnCxfp7e0"
@@ -50,7 +50,12 @@ const AboutUs = () => {
           allow="autoplay; encrypted-media"
           title="Tennr Builds Specialized Language Models on AWS to Help Industry Customers Automate"
         ></iframe>
+        <div className="container md:text-center m-auto  text-sm pt-4 text-gray-500">
+          We find that there has been a tremendous acceleration of adoption over
+          the last 3.5 years.<p className="text-red-600 inline">*</p>
+        </div>
       </div>
+
       <div className="bg-[#667BC6]">
         <div className="container py-20  text-white">
           <div className="flex gap-10  2xl:flex-row flex-col">
