@@ -1,5 +1,3 @@
-import React from "react";
-
 type TswiperCard = {
   image: string;
   title: string;
