@@ -88,9 +88,10 @@ export default function AboutCarousel() {
       <div className="2xl:text-4xl text-2xl 2xl:w-[70%] font-semibold md:pb-4 pb-2 md:text-center m-auto">
         Our Care Model
       </div>
-      <p className="text-base mt-0 text-gray-500 m-auto md:text-center md:w-[40%] text-left">
-        Discover Our Mission, Values, and the Dedicated Team Driving Our
-        Commitment to Excellence and Innovation
+      <p className="text-base mt-0 text-gray-500 m-auto md:text-center md:w-[50%] text-left">
+        Our patient experience is led by dietitians and health coaches through a
+        combination of digital platforms and human touchpoints from Flair’s
+        staff.
       </p>
 
       <Swiper
