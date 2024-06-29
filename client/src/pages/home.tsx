@@ -11,6 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Testomials from "../components/testimonials/testimonialSection";
 import VideoSection from "../components/videosection/videoSection";
+import MedicalConditions from "../components/medicalConditions/medicalConditions";
 
 AOS.init({
   duration: 500,
@@ -25,7 +26,7 @@ function Home() {
       <VideoSection />
       <AboutCarousel />
       <About />
-
+      <MedicalConditions />
       <MarqueeEffect />
       <FeatureSection />
       <CTA />

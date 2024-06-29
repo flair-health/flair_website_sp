@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../../components/ui/button";
-import { useForm, ValidationError } from "@formspree/react";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Loader } from "lucide-react";
@@ -11,26 +10,55 @@ type ContactModalProps = {
 };
 
 const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
-  const [state, handleSubmit] = useForm("xqazzvwb");
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
 
-  React.useEffect(() => {
-    if (state.succeeded) {
-      <div className="h-screen w-screen">
-        {toast.success("Form Submitted", {
-          position: "top-right",
-          onClose,
-          autoClose: 1000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "light",
-          transition: Bounce,
-        })}
-      </div>;
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      toast.success("Form Submitted", {
+        position: "top-right",
+        onClose,
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+
+      form.reset();
+      onClose();
+    } catch (error) {
+      toast.error("Submission failed. Please try again.", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+    } finally {
+      setIsSubmitting(false);
     }
-  }, [state.succeeded]);
+  };
 
   if (!isOpen) return null;
 
@@ -64,7 +92,12 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           We will reach out to you as soon as possible. Please fill out the
           details below.
         </div>
-        <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
+        <form
+          className="flex flex-col gap-4"
+          action="https://formsubmit.co/hello@flairhealth.com"
+          method="POST"
+          onSubmit={handleSubmit}
+        >
           <input
             type="text"
             placeholder="Name"
@@ -79,18 +112,12 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
             required
             className="border-b-[0.5px] p-2 rounded"
           />
-          <ValidationError prefix="Email" field="email" errors={state.errors} />
 
           <input
             type="text"
             placeholder="Organization"
             name="organization"
             className="border-b-[0.5px] p-2 rounded"
-          />
-          <ValidationError
-            prefix="Organization"
-            field="organization"
-            errors={state.errors}
           />
 
           <input
@@ -99,11 +126,6 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
             name="phone number"
             className="border-b-[0.5px] p-2 rounded"
           />
-          <ValidationError
-            prefix="Phone Number"
-            field="phone number"
-            errors={state.errors}
-          />
 
           <textarea
             placeholder="Optional Message"
@@ -111,19 +133,14 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
             className="border-b-[0.5px] p-2 rounded"
             rows={5}
           />
-          <ValidationError
-            prefix="Message"
-            field="message"
-            errors={state.errors}
-          />
 
-          <div className="">
+          <div>
             <button
               type="submit"
-              className={`${state.submitting ? "bg-gray-400" : "bg-[#14a8e1]"} text-white w-full px-4 py-2 rounded my-2 `}
-              disabled={state.submitting}
+              className={`${isSubmitting ? "bg-gray-400" : "bg-[#14a8e1]"} text-white w-full px-4 py-2 rounded my-2`}
+              disabled={isSubmitting}
             >
-              {state.submitting ? <Loader className="m-auto" /> : "Submit"}
+              {isSubmitting ? <Loader className="m-auto" /> : "Submit"}
             </button>
             <button
               type="button"
