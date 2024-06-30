@@ -3,7 +3,7 @@ import Card from "../card";
 const About = () => {
   return (
     <div className="container flex flex-col 2xl:items-center mt-10 md:mt-40 md:gap-4 gap-2">
-      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold 2xl:text-center">
+      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold 2xl:text-center tracking-tight">
         Flair Health helps rheumatology practices provide patients with
         personalized nutrition and health coaching support, covered by
         insurance.

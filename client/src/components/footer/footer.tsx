@@ -1,6 +1,7 @@
+import { Button } from "../../../components/ui/button";
 import "./footer.css";
 
-import { MapPin } from "lucide-react";
+import { Facebook, Instagram, Linkedin, MapPin, Twitter } from "lucide-react";
 // import { AiOutlineInstagram } from "react-icons/ai";
 // import { AiOutlineTwitter } from "react-icons/ai";
 // import { BsFacebook } from "react-icons/bs";
@@ -97,20 +98,18 @@ const Footer = () => {
                   <h3>Company</h3>
                 </div>
                 <div className="link-des">
-                  <a href="" className="footer-links" target="_blank">
-                    Home
-                  </a>
-                  <a href="" className="footer-links" target="_blank">
+                  <a href="/about" className="footer-links">
                     About Us
                   </a>
-                  <a href="" className="footer-links" target="_blank">
-                    Our Projects
+
+                  <a href="/about" className="footer-links">
+                    For Patients
                   </a>
                   <a href="" className="footer-links" target="_blank">
-                    Our Mission
+                    For Clinics
                   </a>
                   <a href="" className="footer-links" target="_blank">
-                    Contact Us
+                    For Pharma
                   </a>
                 </div>
               </div>
@@ -125,10 +124,10 @@ const Footer = () => {
                     Founder&apos;s Message
                   </a>
                   <a href="#video" className="footer-links">
-                    Project Architect
+                    Contact Us
                   </a>
                   <a href="#" className="footer-links">
-                    About Company
+                    Testimonials
                   </a>
                 </div>
               </div>
@@ -153,6 +152,31 @@ const Footer = () => {
                 <div className="link-des">
                   9:00AM - 7:00PM <br />
                   All Week days except Sunday
+                </div>
+                <div className="footer-links pt-4">
+                  <h3 style={{ color: "gray" }}>Our Socials</h3>
+                </div>
+                <div className=" flex gap-2 m-auto pb-4">
+                  <a href="https://www.facebook.com/flairhealthcare">
+                    <Button variant="ghost" className="p-2">
+                      <Facebook className="w-5" />
+                    </Button>
+                  </a>
+                  <a href="https://www.instagram.com/flairhealth/?igsh=MTJlazhuaTFyZ3ZmMw%3D%3D">
+                    <Button variant="ghost" className="p-2">
+                      <Instagram className="w-5" />
+                    </Button>
+                  </a>
+                  <a href="https://www.linkedin.com/company/flairhealth/">
+                    <Button variant="ghost" className="p-2">
+                      <Linkedin className="w-5" />
+                    </Button>
+                  </a>
+                  <a href="https://x.com/flairhealthcare?s=08">
+                    <Button variant="ghost" className="p-2">
+                      <Twitter className="w-5" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>

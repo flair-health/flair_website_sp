@@ -4,7 +4,7 @@ const Testomials = () => {
   return (
     <div className="bg-[#05071c] py-10" id="testimonials">
       <div className="container md:text-center ">
-        <div className="md:text-4xl text-2xl  font-semibold text-white mt-8 md:mb-4">
+        <div className="md:text-4xl text-2xl  font-semibold text-white mt-8 md:mb-4 tracking-tight">
           Testimonials
         </div>
         <div className=" text-base mt-0 text-gray-200 pb-8">

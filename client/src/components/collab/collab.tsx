@@ -14,7 +14,7 @@ const MarqueeEffect = () => {
 
   return (
     <div className="container md:my-20">
-      <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pt-20 pt-10 md:pb-4 pb-2">
+      <div className="2xl:text-4xl tracking-tight md:text-center m-auto font-semibold text-2xl 2xl:pt-20 pt-10 md:pb-4 pb-2">
         Our Customers
       </div>
       <div className="md:text-center text-sm font-normal text-gray-500 2xl:text-base 2xl:w-[60%]  m-auto">

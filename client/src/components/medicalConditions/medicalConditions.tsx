@@ -10,7 +10,7 @@ import ConditionCard from "./conditionCard";
 const MedicalConditions = () => {
   return (
     <div className="container flex flex-col 2xl:items-center mt-10 md:mt-40 md:gap-4 gap-2">
-      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold 2xl:text-center">
+      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold 2xl:text-center tracking-tight">
         Common Conditions We Work With
       </div>
       <div className="2xl:text-center text-sm font-normal text-gray-500 2xl:text-base mb-8">

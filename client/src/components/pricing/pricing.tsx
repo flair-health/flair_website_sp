@@ -3,7 +3,7 @@ import CTAButton from "../button";
 const Pricing = () => {
   return (
     <div className=" mt-10 md:mt-20 pb-20" id="pricing">
-      <h1 className="container 2xl:text-4xl text-2xl pb-2 md:pb-4 2xl:w-[70%] font-semibold md:text-center">
+      <h1 className="container 2xl:text-4xl text-2xl pb-2 md:pb-4 2xl:w-[70%] font-semibold md:text-center tracking-tight">
         Pricing
       </h1>
       <p className="container text-base md:text-center mt-0 text-gray-500">

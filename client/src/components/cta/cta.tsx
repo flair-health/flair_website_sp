@@ -4,7 +4,7 @@ const CTA = () => {
       <div className="container">
         <div className="bg-[#00A8E1] rounded-md relative overflow-hidden z-10 text-center py-[70px]">
           <div className="max-w-[850px] mx-auto px-6 relative z-10">
-            <h2 className="2xl:text-4xl text-2xl 2xl:w-[70%] font-semibold text-white pb-4 2xl:text-center m-auto">
+            <h2 className="2xl:text-4xl text-2xl 2xl:w-[70%] font-semibold text-white pb-4 2xl:text-center m-auto tracking-tight">
               Interested in learning more about Flair for your practice?
             </h2>
             <form

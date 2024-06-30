@@ -35,7 +35,7 @@ const AboutUs = () => {
         </Breadcrumb>
         <div className="container py-20 flex text-white">
           <div className="">
-            <div className=" font-semibold  2xl:text-6xl w-full text-2xl pb-4">
+            <div className=" font-semibold  2xl:text-6xl w-full text-2xl pb-4 tracking-tighter">
               Who we are?
             </div>
 
@@ -49,7 +49,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="container  w-full  md:py-20 py-10">
-        <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl">
+        <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl tracking-tight">
           What we do?
         </div>
         <div className="md:text-center md:w-1/2 md:mt-4  m-auto">
@@ -87,7 +87,7 @@ const AboutUs = () => {
             <img src="/team.jpeg" className="rounded-2xl md:w-1/2" />
 
             <div className="my-auto">
-              <div className=" font-semibold  2xl:text-4xl w-full text-2xl pb-4">
+              <div className=" font-semibold  2xl:text-4xl w-full text-2xl pb-4 tracking-tight">
                 Our Story
               </div>
 

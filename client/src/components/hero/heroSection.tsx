@@ -17,9 +17,9 @@ const HeroSection = () => {
       <div className="relative w-full overflow-x-clip mt-10 md:mt-14"></div>
       <div className="container 2xl:gap-8 gap-2 2xl:flex-row">
         <div className="flex">
-          <div className="2xl:text-6xl text-4xl font-bold md:w-[60%]">
+          <div className="2xl:text-6xl text-4xl font-bold md:w-[60%] leading-[72px] tracking-tighter">
             Reimagining{" "}
-            <span className="inline-block">
+            <span className="inline-block tracking-tighter">
               patient
               <svg
                 width="120"
@@ -37,7 +37,7 @@ const HeroSection = () => {
                 />
               </svg>
             </span>{" "}
-            journeys in autoimmune care
+            <div className="tracking-tighter">journeys in autoimmune care</div>
           </div>
           <div className="absolute right-0 left-0 mx-auto sm:w-full sm:max-w-xs md:right-20 overflow-hidden hidden md:block md:overflow-visible">
             <Lottie
@@ -49,7 +49,7 @@ const HeroSection = () => {
         </div>
         <div className="flex flex-col justify-between my-auto">
           <div
-            className="2xl:text-lg text-sm md:w-[50%] mt-2 text-black md:text-gray-600 font-normal"
+            className="2xl:text-lg text-sm md:w-[50%] mt-2 text-black md:text-gray-600 font-normal leading-[21.6px]"
             data-aos="fade-up"
           >
             Flair Health is a virtual extension for medical practices treating
