@@ -29,35 +29,36 @@ const Footer = () => {
           4. Guides in Maps are available in selected cities. Some features may
           not be available for all countries or regions. View the complete list.
         </p> */}
-        <div className="footer-header">
-          <div className="flex w-full items-center justify-between">
-            <img
-              src="/flair_logo copy.svg"
-              width={100}
-              height={100}
-              className="manik  md:mb-0 "
-              alt=""
-            />
-            <div className="flex items-center flex-col justify-start ">
-              <div className="w-full text-base -mb-6 ml-4">
-                Backed by : &nbsp;
-              </div>
-              <div className="flex gap-2">
-                <img src="/yc.svg" className="m-0 p-0 w-[200px] h-[100px] " />
+        <div className="glass">
+          <div className="footer-header">
+            <div className="flex w-full items-center justify-between">
+              <img
+                src="/flair_logo copy.svg"
+                width={100}
+                height={100}
+                className="manik  md:mb-0 "
+                alt=""
+              />
+              <div className="flex items-center flex-col justify-start ">
+                <div className="w-full text-base -mb-6 ml-4">
+                  Backed by : &nbsp;
+                </div>
+                <div className="flex gap-2">
+                  <img src="/yc.svg" className="m-0 p-0 w-[200px] h-[100px] " />
+                </div>
               </div>
             </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-        <div className="main">
-          <div className="col_main">
-            <div className="col_sub1">
-              <div className="logo-row">
-                <div className="logo-des">
-                  <h3>Office</h3>
-
-                  <p>San Francisco, CA</p>
-                  <h3>Mail</h3>
+          <div className="main">
+            <div className="col_main">
+              <div className="col_sub1">
+                <div className="logo-row">
+                  <div className="logo-des">
+                    <h3>Contact Info</h3>
+                    <p>San Francisco, CA</p>
+                    <p>(650)862-2930</p>
+                  </div>
                   <h3 className="text-white">
                     <a
                       className="text-white"
@@ -66,20 +67,32 @@ const Footer = () => {
                       hello@flairhealth.com
                     </a>
                   </h3>
-                  <p></p>
-                  <p>
-                    <a
-                      href=""
-                      className="hover:underline flex gap-2 items-center"
-                      target="_blank"
-                    >
-                      <MapPin />
-                      Open in maps
-                    </a>
-                  </p>
-                </div>
-                <div className="s_tags">
-                  {/* <span>
+                  <div className="link-row">
+                    <div className=" flex gap-1 m-auto pb-4">
+                      <a href="https://www.facebook.com/flairhealthcare">
+                        <Button variant="ghost" className="p-2">
+                          <Facebook className="w-5" />
+                        </Button>
+                      </a>
+                      <a href="https://www.instagram.com/flairhealth/?igsh=MTJlazhuaTFyZ3ZmMw%3D%3D">
+                        <Button variant="ghost" className="p-2">
+                          <Instagram className="w-5" />
+                        </Button>
+                      </a>
+                      <a href="https://www.linkedin.com/company/flairhealth/">
+                        <Button variant="ghost" className="p-2">
+                          <Linkedin className="w-5" />
+                        </Button>
+                      </a>
+                      <a href="https://x.com/flairhealthcare?s=08">
+                        <Button variant="ghost" className="p-2">
+                          <Twitter className="w-5" />
+                        </Button>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="s_tags">
+                    {/* <span>
                     <AiOutlineInstagram />
                   </span>
                   <span>
@@ -88,110 +101,49 @@ const Footer = () => {
                   <span>
                     <BsFacebook />
                   </span> */}
-                </div>
-              </div>
-            </div>
-
-            <div className="col_sub2">
-              <div className="link-row">
-                <div className="footer-header_sub">
-                  <h3>Company</h3>
-                </div>
-                <div className="link-des">
-                  <a href="/about" className="footer-links">
-                    About Us
-                  </a>
-
-                  <a href="/about" className="footer-links">
-                    For Patients
-                  </a>
-                  <a href="" className="footer-links" target="_blank">
-                    For Clinics
-                  </a>
-                  <a href="" className="footer-links" target="_blank">
-                    For Pharma
-                  </a>
+                  </div>
                 </div>
               </div>
 
-              <div className="link-row">
-                <div className="footer-header_sub">
-                  <h3>Quick Links</h3>
-                </div>
+              <div className="col_sub2"></div>
+              <div className="col_sub3">
+                <div className="link-row">
+                  <div className="footer-header_sub">
+                    <h3>Quick Links</h3>
+                  </div>
 
-                <div className="link-des">
-                  <a href="#testomonials" className="footer-links">
-                    Founder&apos;s Message
-                  </a>
-                  <a href="#video" className="footer-links">
-                    Contact Us
-                  </a>
-                  <a href="#" className="footer-links">
-                    Testimonials
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col_sub3">
-              <div className="link-row">
-                <div className="">
-                  <h3 style={{ color: "gray" }}>Call Us</h3>
-                  <div>
-                    <a
-                      href="tel:(650) 862-2930"
-                      className="footer-links text-2xl"
-                    >
-                      (650) 862-2930
+                  <div className="link-des">
+                    <a href="#testomonials" className="footer-links">
+                      For Patient
+                    </a>
+                    <a href="#video" className="footer-links">
+                      For Clinic
+                    </a>
+                    <a href="#" className="footer-links">
+                      About
+                    </a>
+                    <a href="#" className="footer-links">
+                      Privacy Policy
+                    </a>
+                    <a href="#" className="footer-links">
+                      Terms of Use
                     </a>
                   </div>
                 </div>
-                <div className="footer-links pt-4">
-                  <h3 style={{ color: "gray" }}>Active Hours</h3>
-                </div>
-
-                <div className="link-des">
-                  9:00AM - 7:00PM <br />
-                  All Week days except Sunday
-                </div>
-                <div className="footer-links pt-4">
-                  <h3 style={{ color: "gray" }}>Our Socials</h3>
-                </div>
-                <div className=" flex gap-2 m-auto pb-4">
-                  <a href="https://www.facebook.com/flairhealthcare">
-                    <Button variant="ghost" className="p-2">
-                      <Facebook className="w-5" />
-                    </Button>
-                  </a>
-                  <a href="https://www.instagram.com/flairhealth/?igsh=MTJlazhuaTFyZ3ZmMw%3D%3D">
-                    <Button variant="ghost" className="p-2">
-                      <Instagram className="w-5" />
-                    </Button>
-                  </a>
-                  <a href="https://www.linkedin.com/company/flairhealth/">
-                    <Button variant="ghost" className="p-2">
-                      <Linkedin className="w-5" />
-                    </Button>
-                  </a>
-                  <a href="https://x.com/flairhealthcare?s=08">
-                    <Button variant="ghost" className="p-2">
-                      <Twitter className="w-5" />
-                    </Button>
-                  </a>
-                </div>
               </div>
             </div>
-          </div>
-          <div className="container pl-0 pt-2 md:p-0">
-            <img
-              src="https://www.hipaatraining.com/Content/images/badges/branded/badge4-orig.svg"
-              className="m-0 p-0"
-              width="80px"
-              height="50px"
-            />
+            <div className="container pl-0 pt-2 md:p-0">
+              <img
+                src="https://www.hipaatraining.com/Content/images/badges/branded/badge4-orig.svg"
+                className="m-0 p-0"
+                width="80px"
+                height="50px"
+              />
+            </div>
           </div>
         </div>
 
-        <div className="disclaimer">
+        {/* <div className="disclaimer">
           <div className="head_disc">
             <h3>Disclaimer</h3>
           </div>
@@ -211,17 +163,17 @@ const Footer = () => {
               ©️ 2024. All rights reserved.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="copyright_main">
           <hr className="f2_hr" />
 
-          <div className="col-12">
+          {/* <div className="col-12">
             <span className="copyright">
               ©Copyright 2024-2026 Lorem Ipsum. All Rights Reserved | Designed
               by Mangalam Raj
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

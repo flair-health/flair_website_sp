@@ -2,7 +2,7 @@ import TestimonialCard from "./testimonialsCard";
 
 const Testomials = () => {
   return (
-    <div className="bg-[#05071c] py-10" id="testimonials">
+    <div className="bg-[#14a8e1] py-10" id="testimonials">
       <div className="container md:text-center ">
         <div className="md:text-4xl text-2xl  font-semibold text-white mt-8 md:mb-4 tracking-tight">
           Testimonials
