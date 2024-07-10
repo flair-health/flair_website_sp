@@ -1,7 +1,7 @@
 import { Button } from "../../../components/ui/button";
 import "./footer.css";
 
-import { Facebook, Instagram, Linkedin, MapPin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 // import { AiOutlineInstagram } from "react-icons/ai";
 // import { AiOutlineTwitter } from "react-icons/ai";
 // import { BsFacebook } from "react-icons/bs";
