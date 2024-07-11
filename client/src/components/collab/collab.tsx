@@ -8,7 +8,13 @@ const MarqueeEffect = () => {
     "/UnabridgedMD.webp",
     "/valley.png",
   ];
-  const row2 = ["/atena.svg", "/cigna.svg", "/united.svg"];
+  const row2 = [
+    "/atena.svg",
+    "/cigna.svg",
+    "/united.svg",
+    "/blue.png",
+    "/medicare.png",
+  ];
 
   return (
     <div className="container md:my-10">
@@ -38,13 +44,13 @@ const MarqueeEffect = () => {
       <AppContainer>
         <Wrapper>
           <Marquee>
-            <MarqueeGroup>
+            <MarqueeGroup2>
               {row2.map((el, index) => (
                 <ImageGroup key={index}>
                   <Image src={el} alt="companies" />
                 </ImageGroup>
               ))}
-            </MarqueeGroup>
+            </MarqueeGroup2>
           </Marquee>
         </Wrapper>
       </AppContainer>
@@ -92,6 +98,16 @@ const MarqueeGroup = styled.div`
   justify-content: space-around;
   white-space: nowrap;
   width: 80%;
+  margin: auto;
+`;
+
+const MarqueeGroup2 = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+  width: 100%;
   margin: auto;
 `;
 
