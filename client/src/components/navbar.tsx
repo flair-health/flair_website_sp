@@ -19,7 +19,7 @@ const Navbar = () => {
       className={`sticky top-0 z-50 h-20 w-full items-center backdrop-blur shadow-sm px-2 flex justify-between bg-white`}
       style={{ backgroundColor: `rgba(255, 255, 255, ${white / 100})` }}
     >
-      <div className="container w-[82%] md:p-0 m-auto flex items-center justify-between">
+      <div className="container md:w-[82%] md:p-0 m-auto flex items-center justify-between">
         <a href="/">
           <img src="flair_logo_white.png" width="120px" alt="Logo" />
         </a>

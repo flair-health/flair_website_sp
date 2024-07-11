@@ -1,12 +1,12 @@
 const VideoSection = () => {
   return (
     <div className=" container md:mt-20 mb-0 mt-0">
-      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[40%] m-auto font-semibold 2xl:text-center md:mb-4 mb-2 tracking-tight">
-        Hear what our team have to say.
+      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[40%] m-auto font-semibold 2xl:text-center md:mb-2 mb-2 tracking-tight">
+        Our Collaborative Care Model
       </div>
-      <p className="text-base mt-0 text-gray-500 m-auto md:text-center md:w-[40%] text-left md:pb-8 pb-4">
-        Discover Our Mission, Values, and the Dedicated Team Driving Our
-        Commitment to Excellence and Innovation
+      <p className="text-base mt-0 text-gray-500 m-auto md:text-center md:w-[50%] text-left md:pb-8 pb-4">
+        Our program supports patients with inflammatory and autoimmune diseases
+        through health coaches and dietitians.
       </p>
 
       <div className="flex flex-col-reverse 2xl:flex-row md:gap-8">
