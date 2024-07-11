@@ -3,27 +3,26 @@ import TeamCard from "./teamCard";
 
 const OurTeamSection = () => {
   return (
-    <div className="container py-10">
-      <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-4 pb-2 tracking-tight">
-        Meet the team making it happen.
+    <div className="container pt-10">
+      <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-2 pb-2 tracking-tight">
+        Our Team
       </div>
       <div className="md:text-center text-sm font-normal text-gray-500 2xl:text-base 2xl:w-[60%] mb-8 m-auto">
-        Discover the dedicated experts behind Flair Health, transforming chronic
-        care through personalized nutrition and lifestyle coaching for better
-        health outcomes.
+        Our team at Flair is dedicated to providing innovative, personalized
+        support for autoimmune and inflammatory conditions.
       </div>
 
       <div className="flex md:gap-4 gap-2 flex-wrap items-center justify-center m-auto">
         <TeamCard
           name="Diva Sharma"
           img="/diva_sharma.jpeg"
-          title="Co-founder"
+          title="Co-Founder"
           desc="Diva studied Computer Science at Stanford with a focus on Human Computer Interaction and Design. Prior to Tennr he built automation systems at Goldman Sachs as an automation engineer."
         />
         <TeamCard
           name="Shobha Dasari"
           img="/shobha_dasari.png"
-          title="Co-founder"
+          title="Co-Founder"
           desc="Shobha studied Computer Science at Stanford with a focus on Human Computer Interaction and Design. Prior to Tennr he built automation systems at Goldman Sachs as an automation engineer."
         />
       </div>
