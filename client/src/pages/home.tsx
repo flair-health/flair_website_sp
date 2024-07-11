@@ -28,9 +28,9 @@ function Home() {
       <About />
       <MedicalConditions />
       <MarqueeEffect />
-      <FeatureSection />
-      <CTA />
-      <Pricing />
+      {/* <FeatureSection /> */}
+      {/* <CTA /> */}
+      {/* <Pricing /> */}
       <Testomials />
       <Footer />
     </>

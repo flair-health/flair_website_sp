@@ -10,25 +10,6 @@ const Footer = () => {
   return (
     <div className="footer-sec">
       <div className="footerparent">
-        {/* <p className="navbarbakchodi">
-          1. Electric vehicle routing requires iPhone with iOS 15 or later and a
-          compatible vehicle.{" "}
-        </p>
-        <p className="navbarbakchodi">
-          2.Available on iPhone with A12 Bionic and later.{" "}
-        </p>
-        <p className="navbarbakchodi">
-          3. Flyover is available in selected cities on iPhone 4s or later, iPad
-          Pro, iPad (2nd generation or later), iPad Air or later, iPad mini or
-          later, and iPod touch (5th generation or later). To experience Flyover
-          as you move your device through space, you need iPhone 6s or later,
-          iPad Pro, or iPad (5th generation or later). Cellular data charges may
-          apply.{" "}
-        </p>
-        <p className="navbarbakchodi">
-          4. Guides in Maps are available in selected cities. Some features may
-          not be available for all countries or regions. View the complete list.
-        </p> */}
         <div className="glass">
           <div className="footer-header">
             <div className="flex w-full items-center justify-between">

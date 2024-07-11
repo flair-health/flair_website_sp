@@ -20,7 +20,7 @@ const MedicalConditions = () => {
       <Swiper
         spaceBetween={30}
         autoplay={{
-          delay: 2000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -46,44 +46,23 @@ const MedicalConditions = () => {
         <SwiperSlide>
           <ConditionCard
             name="Rheumatoid Arthritis (RA)"
-            about="Chronic autoimmune disease causing joint inflammation, pain, swelling, and deformities, commonly affecting women."
             image="/arthritis.png"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <ConditionCard
-            name="Gout"
-            about="Metabolic disorder characterized by sudden, severe attacks of pain, redness, and tenderness in joints."
-            image="/gout.png"
-          />
+          <ConditionCard name="Gout" image="/gout.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <ConditionCard
-            name="Fibromyalgia"
-            about="Chronic condition causing widespread pain, fatigue, sleep disturbances, and cognitive difficulties, often affecting women."
-            image="/nerves.png"
-          />
+          <ConditionCard name="Fibromyalgia" image="/nerves.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <ConditionCard
-            name="Lupus"
-            about="Autoimmune disease causing inflammation, pain, and damage to various body systems, including skin, joints, and organs."
-            image="/homeless.png"
-          />
+          <ConditionCard name="Lupus" image="/homeless.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <ConditionCard
-            name="Diabetes"
-            about="Metabolic disorder characterized by high blood sugar levels due to insulin deficiency or resistance, affecting multiple organs."
-            image="/diabetes.png"
-          />
+          <ConditionCard name="Diabetes" image="/diabetes.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <ConditionCard
-            name="Obesity"
-            about="Diseases where the immune system mistakenly attacks the body's own tissues, causing inflammation and tissue damage."
-            image="/obesity.png"
-          />
+          <ConditionCard name="Obesity" image="/obesity.png" />
         </SwiperSlide>
       </Swiper>
     </div>
