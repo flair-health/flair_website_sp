@@ -12,7 +12,9 @@ const ConditionCard = (props: Tmedical) => {
         alt={props.name}
         className="w-[100px] relative z-10"
       />
-      <div className="text-2xl font-semibold relative z-10">{props.name}</div>
+      <div className="md:text-2xl font-semibold relative z-10">
+        {props.name}
+      </div>
     </div>
   );
 };
