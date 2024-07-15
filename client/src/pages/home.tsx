@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import Testomials from "../components/testimonials/testimonialSection";
 import VideoSection from "../components/videosection/videoSection";
 import MedicalConditions from "../components/medicalConditions/medicalConditions";
+import ContactSection from "../components/contact/Contact";
 
 AOS.init({
   duration: 500,
@@ -30,6 +31,7 @@ function Home() {
       {/* <CTA /> */}
       {/* <Pricing /> */}
       <Testomials />
+      <ContactSection />
       <Footer />
     </>
   );
