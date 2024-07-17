@@ -8,7 +8,7 @@ const Testomials = () => {
           Testimonials
         </div>
         <div className=" text-base  text-gray-600 pb-6 md:pb-12">
-          Hear from our customers
+          Hear what patients have to say.
         </div>
         <div className="flex justify-between md:gap-8 gap-2 flex-col lg:flex-row">
           <TestimonialCarousel />

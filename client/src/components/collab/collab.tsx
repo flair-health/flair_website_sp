@@ -22,8 +22,8 @@ const MarqueeEffect = () => {
         Our Partners
       </div>
       <div className="md:text-center text-sm font-normal text-gray-500 2xl:text-base 2xl:w-[60%] m-auto">
-        Health is working with patients from rheumatology private practices
-        across the country.
+        Flair Health is working with patients from rheumatology private
+        practices across the country.
       </div>
       <AppContainer>
         <Wrapper>

@@ -9,7 +9,12 @@ type Ttesticontent = {
 
 const TestimonialCard = (props: Ttesticontent) => {
   const stars = Array.from({ length: props.numberStars }, (_, index) => (
-    <Star key={index} className="md:w-8 md:h-8" color="#14a8e1" />
+    <Star
+      key={index}
+      fill="#14a8e1"
+      className="md:w-8 md:h-8"
+      color="#14a8e1"
+    />
   ));
 
   return (
