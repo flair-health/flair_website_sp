@@ -64,7 +64,7 @@ const HeroSection = () => {
             {/* Open the modal on click */}
           </div>
         </div>
-        <div id="about"></div>
+        <div></div>
       </div>
       {/* <div className="container mt-10">
         <div className="border-gray-200 border-[1px] shadow-sm shadow-blue-500/20 rounded-xl box-shadow">
