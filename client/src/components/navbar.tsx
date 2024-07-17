@@ -21,7 +21,7 @@ const Navbar = () => {
     >
       <div className="container md:w-[82%] md:p-0 m-auto flex items-center justify-between">
         <a href="/">
-          <img src="flair_logo_white.png" width="120px" alt="Logo" />
+          <img src="flair_logo_white.png" width="100px" alt="Logo" />
         </a>
         <div className=" font-medium hidden md:flex w-[40%] justify-between text-[#14a8e1]">
           <Link
