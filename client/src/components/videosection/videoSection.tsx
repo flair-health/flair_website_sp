@@ -1,6 +1,6 @@
 const VideoSection = () => {
   return (
-    <div className="container md:w-[82%] md:mt-20 mb-0 mt-0">
+    <div className="container md:w-[82%]  md:mt-40 mb-0 mt-0">
       <div className="2xl:text-4xl w-full text-2xl 2xl:w-[40%] m-auto font-semibold md:text-center md:mb-2 mb-2 tracking-tight">
         Our Collaborative Care Model
       </div>
