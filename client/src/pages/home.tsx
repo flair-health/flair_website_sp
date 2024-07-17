@@ -22,10 +22,10 @@ function Home() {
     <>
       <Navbar />
       <HeroSection />
-      <VideoSection />
-      <AboutCarousel />
       <About />
       <MedicalConditions />
+      <VideoSection />
+
       <MarqueeEffect />
       {/* <FeatureSection /> */}
       {/* <CTA /> */}

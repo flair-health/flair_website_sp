@@ -1,10 +1,10 @@
 import Lottie, { Options } from "react-lottie";
 import animationData from "../../lotties/animation-9yyzZ.json";
-import CTAButton from "../button";
+import { Button } from "../../../components/ui/button";
 
 const HeroSection = () => {
   const defaultOptions: Options = {
-    loop: false,
+    loop: true,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
@@ -13,19 +13,19 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="md:pb-20 pb-10">
-      <div className="relative w-full overflow-x-clip mt-10 md:mt-14"></div>
-      <div className="container 2xl:gap-8 gap-2 2xl:flex-row">
-        <div className="flex">
-          <div className="absolute left-40 -right-40 top-24  mx-auto sm:w-full  sm:max-w-xs  overflow-hidden hidden md:block md:overflow-visible">
+    <div className="md:pb-20 md:w-[82%] flex justify-center m-auto pt-10 ">
+      <div className="container 2xl:gap-8 gap-2 2xl:flex-row ">
+        <div className="flex flex-col">
+          <div className="  mx-auto sm:w-full  sm:max-w-xs   overflow-hidden hidden md:block md:overflow-visible">
             <Lottie
               options={defaultOptions}
-              height={480} // Reduced height
-              width={600} // Reduced width
+              width={200}
+              // Reduced width
             />
           </div>
-          <div className="2xl:text-6xl text-4xl font-bold md:w-[60%] 2xl:leading-[72px] md:tracking-tight tracking-tighter">
-            Reimagining patient journeys in{" "}
+          <div className="md:text-center text-4xl font-bold sm:px-10 sm:text-5xl md:text-[60px] md:leading-[81px]">
+            Reimagining patient journeys <br />
+            in{" "}
             <span className="inline-block tracking-tighter">
               autoimmune
               <svg
@@ -49,7 +49,7 @@ const HeroSection = () => {
         </div>
         <div className="flex flex-col justify-between my-auto">
           <div
-            className="2xl:text-lg text-sm md:w-[50%] mt-4 text-black md:text-gray-600 font-normal leading-[21.6px]"
+            className="text-center text-base md:mt-8 mt-4 text-gray-500 md:w-[80%] m-auto"
             data-aos="fade-up"
           >
             Flair Health is a virtual extension for medical practices treating
@@ -57,16 +57,14 @@ const HeroSection = () => {
             for those affected by autoimmune diseases while generating revenue
             for clinics.
           </div>
-          <form
-            target="_blank"
-            action="https://formsubmit.co/b502af0edb5c06969c992fbc4f10ee95"
-            method="POST"
-            className="relative max-w-[480px] pt-6"
-          >
-            <CTAButton title="Learn more" /> {/* Open the modal on click */}
-          </form>
-          <div className="flex"></div>
+          <div className="md:m-auto md:mt-8 mt-4">
+            <Button className="border-[#14a8e1] hover:text-#14a8e1 bg-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white md:py-4 md:px-6">
+              <a href="#about">Learn more</a>
+            </Button>{" "}
+            {/* Open the modal on click */}
+          </div>
         </div>
+        <div id="about"></div>
       </div>
       {/* <div className="container mt-10">
         <div className="border-gray-200 border-[1px] shadow-sm shadow-blue-500/20 rounded-xl box-shadow">

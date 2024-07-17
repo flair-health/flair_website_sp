@@ -1,5 +1,4 @@
 .footerparent {
-    max-width: 1496px;
     margin: 0 auto;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -10,6 +9,8 @@
     backdrop-filter: blur(7px);
     border-radius: 20px;
     margin-top: 2em;
+    max-width: 82%;
+    margin: auto;
 }
 
 .logo-row {
@@ -205,6 +206,9 @@
 }
 
 @media (max-width: 1024px) {
+    .glass {
+        max-width: 95%;
+    }
     .col_main {
         display: flex;
     }
