@@ -1,4 +1,3 @@
-import AboutCarousel from "../components/about-carousel/aboutCarousel";
 import About from "../components/about/aboutSection";
 
 import Footer from "../components/footer/footer";
