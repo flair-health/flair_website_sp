@@ -13,7 +13,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="md:pb-20 md:w-[82%] flex justify-center m-auto pt-10 ">
+    <div className="md:pb-20 md:w-[82%] 2xl:mt-14 flex justify-center m-auto pt-10 ">
       <div className="container 2xl:gap-8 gap-2 2xl:flex-row ">
         <div className="flex flex-col">
           <div className="  mx-auto sm:w-full  sm:max-w-xs   overflow-hidden hidden md:block md:overflow-visible">
