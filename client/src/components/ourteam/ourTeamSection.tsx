@@ -3,8 +3,8 @@ import TeamCard from "./teamCard";
 
 const OurTeamSection = () => {
   return (
-    <div className="container pt-10">
-      <div className="2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-2 pb-2 tracking-tight">
+    <div className="container pt-10 md:w-[82%]">
+      <div className=" 2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-2 pb-2 tracking-tight">
         Our Team
       </div>
       <div className="md:text-center text-sm font-normal text-gray-500 2xl:text-base 2xl:w-[60%] mb-8 m-auto">
@@ -12,7 +12,7 @@ const OurTeamSection = () => {
         support for autoimmune and inflammatory conditions.
       </div>
 
-      <div className="flex md:gap-4 gap-2 flex-wrap items-center justify-center m-auto">
+      <div className="flex md:gap-4 gap-2 md:w-[65%] flex-col md:flex-row  items-center justify-center m-auto">
         <TeamCard
           name="Diva Sharma"
           img="/diva_sharma.jpeg"
@@ -26,7 +26,7 @@ const OurTeamSection = () => {
           desc="Shobha studied Computer Science at Stanford with a focus on Human Computer Interaction and Design. Prior to Tennr he built automation systems at Goldman Sachs as an automation engineer."
         />
       </div>
-      <div className="flex md:gap-4 gap-2 flex-wrap items-center justify-center m-auto">
+      <div className="flex md:gap-4 gap-2 md:flex-row flex-col  items-center justify-center m-auto">
         <TeamCard
           name="Bonnie Kuss, MPH, RD, LD"
           img="/bonnie_kuss.jpeg"

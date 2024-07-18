@@ -17,7 +17,7 @@ const AboutUs = () => {
     <>
       <Navbar />
       <div className="">
-        <Breadcrumb className="container pt-10">
+        <Breadcrumb className="container pt-10 md:w-[82%]">
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink href="/">
@@ -31,7 +31,7 @@ const AboutUs = () => {
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-        <div className="container py-10 flex ">
+        <div className="container md:w-[82%] py-10 flex ">
           <div className="">
             <div className=" font-semibold  2xl:text-6xl w-full text-2xl pb-4 tracking-tighter">
               About Flair Health
@@ -74,8 +74,8 @@ const AboutUs = () => {
       </div>
 
       <div className="bg-[#14a8e1]">
-        <div className="container py-20  text-white">
-          <div className="flex gap-10  2xl:flex-row flex-col">
+        <div className="container py-20 md:w-[82%] text-white">
+          <div className="flex gap-10  md:flex-row flex-col">
             <img src="/team.jpeg" className="rounded-2xl md:w-1/2" />
 
             <div className="my-auto">

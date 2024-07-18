@@ -18,7 +18,7 @@ AOS.init({
 
 function Home() {
   return (
-    <>
+    <div>
       <Navbar />
       <HeroSection />
       <About />
@@ -32,7 +32,7 @@ function Home() {
       <Testomials />
       <ContactSection />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -15,8 +15,25 @@ const HeroSection = () => {
   return (
     <div className="md:pb-20 md:w-[82%] 2xl:mt-14 flex justify-center m-auto pt-10 ">
       <div className="container 2xl:gap-8 gap-2 2xl:flex-row ">
+        {/* <div className=" absolute -left-[530px] -z-50">
+          <img
+            src="/HeroMesh.svg"
+            alt="gradient-bg"
+            width="1000"
+            height="1000"
+          />
+        </div>
+        <div className="absolute -right-[390px] -top-80 -z-50">
+          <img
+            src="/HeroMesh.svg"
+            alt="gradient-bg"
+            width="900"
+            height="900"
+            className="overflow-x-hidden"
+          />
+        </div> */}
         <div className="flex flex-col">
-          <div className="  mx-auto sm:w-full  sm:max-w-xs   overflow-hidden hidden md:block md:overflow-visible">
+          <div className="  mx-auto sm:w-full  sm:max-w-xs  hidden md:block md:overflow-visible">
             <Lottie
               options={defaultOptions}
               width={200}
