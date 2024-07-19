@@ -3,6 +3,7 @@
     padding-top: 4em;
     padding-bottom: 2em;
 }
+
 .glass {
     background-color: rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(7px);
@@ -65,6 +66,7 @@
     width: 120px;
     height: 50px;
 }
+
 @media only screen and (max-width: 600px) {
     .manik {
         width: 90px;
@@ -126,6 +128,41 @@
     font-weight: 300;
 }
 
+@media only screen and (max-width: 600px) {
+    .footer-header_sub h3 {
+        font-size: 1.1rem;
+        padding-bottom: 15px;
+        font-weight: 400;
+        letter-spacing: 0.02rem;
+    }
+
+    .logo-des h3 {
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+        font-weight: 400;
+    }
+
+    .logo-des p {
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+        padding-top: 0.1em;
+        padding-bottom: 0.5em;
+        font-weight: 300;
+    }
+
+    .link-des a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+        font-weight: 300;
+    }
+
+    .link-des {
+        gap: 6px;
+    }
+}
+
 .link-des a:hover {
     cursor: pointer;
 }
@@ -185,6 +222,7 @@
     justify-content: space-between;
     width: 100%;
 }
+
 @media only screen and (max-width: 600px) {
     .col_main {
         display: flex;
@@ -222,6 +260,7 @@
     .glass {
         max-width: 95%;
     }
+
     .col_main {
         display: flex;
     }
