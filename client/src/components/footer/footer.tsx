@@ -2,6 +2,9 @@ import { Button } from "../../../components/ui/button";
 import "./footer.css";
 
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+// import { AiOutlineInstagram } from "react-icons/ai";
+// import { AiOutlineTwitter } from "react-icons/ai";
+// import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -14,15 +17,15 @@ const Footer = () => {
                 src="/flair_logo copy.svg"
                 width={100}
                 height={100}
-                className="manik md:mb-0"
+                className="manik  md:mb-0 "
                 alt=""
               />
-              <div className="flex items-center flex-col justify-start">
+              <div className="flex items-center flex-col justify-start ">
                 <div className="w-full text-base -mb-6 ml-4">
                   Backed by : &nbsp;
                 </div>
                 <div className="flex gap-2">
-                  <img src="/yc.svg" className="m-0 p-0 w-[200px] h-[100px]" />
+                  <img src="/yc.svg" className="m-0 p-0 w-[200px] h-[100px] " />
                 </div>
               </div>
             </div>
@@ -46,7 +49,7 @@ const Footer = () => {
                     </a>
                   </h3>
                   <div className="link-row">
-                    <div className="flex gap-1 m-auto pb-4">
+                    <div className=" flex gap-1 m-auto pb-4">
                       <a href="https://www.facebook.com/flairhealthcare">
                         <Button variant="ghost" className="p-2">
                           <Facebook className="w-5" />
@@ -69,7 +72,17 @@ const Footer = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="s_tags"></div>
+                  <div className="s_tags">
+                    {/* <span>
+                    <AiOutlineInstagram />
+                  </span>
+                  <span>
+                    <AiOutlineTwitter />
+                  </span>
+                  <span>
+                    <BsFacebook />
+                  </span> */}
+                  </div>
                 </div>
               </div>
 
@@ -111,8 +124,37 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* <div className="disclaimer">
+          <div className="head_disc">
+            <h3>Disclaimer</h3>
+          </div>
+          <div className="para_disc">
+            <p>
+              Information on this website may change without notice. We are not
+              liable for any inaccuracies, omissions, or alterations. Users
+              should verify details independently. This website is designed and
+              developed by{" "}
+              <a
+                href="https://github.com/mangalamraj/"
+                target="_blank"
+                className="text-[#fd7028]"
+              >
+                Mangalam Raj
+              </a>{" "}
+              ©️ 2024. All rights reserved.
+            </p>
+          </div>
+        </div> */}
+
         <div className="copyright_main">
           <hr className="f2_hr" />
+
+          {/* <div className="col-12">
+            <span className="copyright">
+              ©Copyright 2024-2026 Lorem Ipsum. All Rights Reserved | Designed
+              by Mangalam Raj
+            </span>
+          </div> */}
         </div>
       </div>
     </div>
