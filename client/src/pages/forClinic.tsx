@@ -30,7 +30,7 @@ const ForClinic = () => {
             <BreadcrumbSeparator className="text-white" />
             <BreadcrumbItem>
               <BreadcrumbPage className="underline text-white">
-                About us
+                For Clinics
               </BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
