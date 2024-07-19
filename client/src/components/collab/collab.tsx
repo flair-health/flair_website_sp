@@ -103,13 +103,15 @@ const MarqueeGroup = styled.div`
 const ImageGroup = styled.div`
   display: grid;
   place-items: center;
-  width: clamp(5rem, 1rem + 20vmin, 15rem);
-  padding: calc(clamp(5rem, 1rem + 10vmin, 15rem) / 10);
+  width: clamp(10rem, 1rem + 20vmin, 20rem); /* Increased min size */
+  padding: calc(
+    clamp(10rem, 1rem + 10vmin, 20rem) / 10
+  ); /* Increased min padding */
 `;
 
 const Image = styled.img`
   object-fit: contain;
-  width: 60%;
+  width: 80%; /* Increased width for mobile */
   height: 100%;
   filter: grayscale(100%);
   &:hover {
@@ -118,4 +120,8 @@ const Image = styled.img`
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
   cursor: pointer;
+
+  @media (max-width: 600px) {
+    width: 90%; /* Further increased width for very small screens */
+  }
 `;
