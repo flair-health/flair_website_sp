@@ -13,10 +13,10 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="md:pb-20  2xl:mt-14  justify-center m-auto pt-10 ">
+    <div className=" md:pb-20  2xl:mt-14  justify-center m-auto pt-10 ">
       <div className=" 2xl:gap-8 gap-2 2xl:flex-row ">
-        <div className="relative w-full overflow-x-clip">
-          <div className=" absolute -left-[530px] -z-50">
+        <div className="relative w-full overflow-x-clip hidden md:block">
+          <div className=" absolute -left-[530px] -z-50 ">
             <img
               src="/HeroMesh.svg"
               alt="gradient-bg"
@@ -39,11 +39,11 @@ const HeroSection = () => {
           <div className="  mx-auto sm:w-full  sm:max-w-xs  hidden md:block md:overflow-visible">
             <Lottie
               options={defaultOptions}
-              width={200}
+              width={150}
               // Reduced width
             />
           </div>
-          <div className="md:text-center text-4xl font-bold sm:px-10 sm:text-5xl md:text-[60px] md:leading-[81px]">
+          <div className="container md:text-center text-4xl font-bold sm:px-10 sm:text-5xl md:text-[60px] md:leading-[81px]">
             Reimagining patient journeys <br />
             in{" "}
             <span className="inline-block tracking-tighter">
@@ -69,7 +69,7 @@ const HeroSection = () => {
         </div>
         <div className="flex flex-col justify-between my-auto">
           <div
-            className="md:text-center text-left text-lg  md:mt-8 mt-4 text-gray-500 md:w-[65%] m-auto"
+            className="container md:text-center text-left sm:text-base 2xl:text-lg  md:mt-8 mt-4 text-gray-500 md:w-[65%] m-auto"
             data-aos="fade-up"
           >
             Flair Health is a virtual extension for medical practices treating
@@ -77,7 +77,7 @@ const HeroSection = () => {
             for those affected by autoimmune diseases while generating revenue
             for clinics.
           </div>
-          <div className="md:m-auto md:mt-8 mt-4">
+          <div className="container flex justify-center md:m-auto md:mt-8 mt-4">
             <Button className="border-[#14a8e1] hover:text-#14a8e1 bg-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white md:py-4 md:px-6">
               <a href="#about">Learn more</a>
             </Button>{" "}
