@@ -13,25 +13,28 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="md:pb-20 md:w-[82%] 2xl:mt-14 flex justify-center m-auto pt-10 ">
-      <div className="container 2xl:gap-8 gap-2 2xl:flex-row ">
-        {/* <div className=" absolute -left-[530px] -z-50">
-          <img
-            src="/HeroMesh.svg"
-            alt="gradient-bg"
-            width="1000"
-            height="1000"
-          />
+    <div className="md:pb-20  2xl:mt-14  justify-center m-auto pt-10 ">
+      <div className=" 2xl:gap-8 gap-2 2xl:flex-row ">
+        <div className="relative w-full overflow-x-clip">
+          <div className=" absolute -left-[530px] -z-50">
+            <img
+              src="/HeroMesh.svg"
+              alt="gradient-bg"
+              width="1000"
+              height="1000"
+            />
+          </div>
+          <div className="absolute -right-[390px] -top-80 -z-50">
+            <img
+              src="/HeroMesh.svg"
+              alt="gradient-bg"
+              width="900"
+              height="900"
+              className="overflow-x-hidden"
+            />
+          </div>
         </div>
-        <div className="absolute -right-[390px] -top-80 -z-50">
-          <img
-            src="/HeroMesh.svg"
-            alt="gradient-bg"
-            width="900"
-            height="900"
-            className="overflow-x-hidden"
-          />
-        </div> */}
+
         <div className="flex flex-col">
           <div className="  mx-auto sm:w-full  sm:max-w-xs  hidden md:block md:overflow-visible">
             <Lottie
@@ -66,7 +69,7 @@ const HeroSection = () => {
         </div>
         <div className="flex flex-col justify-between my-auto">
           <div
-            className="md:text-center text-left text-base md:mt-8 mt-4 text-gray-500 md:w-[80%] m-auto"
+            className="md:text-center text-left text-lg  md:mt-8 mt-4 text-gray-500 md:w-[65%] m-auto"
             data-aos="fade-up"
           >
             Flair Health is a virtual extension for medical practices treating
