@@ -3,6 +3,7 @@
 import { useState } from "react";
 import CTAButton from "./button"; // Import the ContactModal component
 import { Link } from "react-scroll";
+import { Sling } from "hamburger-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,19 +53,9 @@ const Navbar = () => {
         <div className="hidden md:block">
           <CTAButton title="Learn more" />
         </div>
-        <button
-          className="md:hidden flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-black hover:border-black"
-          onClick={toggleMenu}
-        >
-          <svg
-            className="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 5h20v2H0V8zm0 5h20v2H0v-2z" />
-          </svg>
-        </button>
+        <div onClick={toggleMenu}>
+          <Sling size={25} color="#14a8e1" />
+        </div>
       </div>
       {isMenuOpen && (
         <div className="md:hidden flex flex-col items-center text-2xl mt-10 bg-white shadow-sm gap-4 text-[#14a8e1] h-screen p-4 absolute w-full top-10 left-0">
