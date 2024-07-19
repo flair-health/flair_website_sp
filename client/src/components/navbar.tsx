@@ -24,15 +24,9 @@ const Navbar = () => {
           <img src="flair_logo_white.png" width="85px" alt="Logo" />
         </a>
         <div className=" font-medium hidden md:flex w-[40%] justify-between text-[#14a8e1]">
-          <Link
-            activeClass="active"
-            smooth
-            spy
-            to="pricing"
-            className="hover:underline cursor-pointer"
-          >
+          <a href="/forclinic" className="hover:underline cursor-pointer">
             For Clinics
-          </Link>
+          </a>
           <Link
             activeClass="active"
             smooth
@@ -74,18 +68,9 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden flex flex-col items-center text-2xl mt-10 bg-white shadow-sm gap-4 text-[#14a8e1] h-screen p-4 absolute w-full top-10 left-0">
-          <Link
-            activeClass="active"
-            smooth
-            spy
-            to="pricing"
-            className="hover:underline cursor-pointer"
-            onClick={() => {
-              setIsMenuOpen(false);
-            }}
-          >
+          <a href="/forclinic" className="hover:underline cursor-pointer">
             For Clinics
-          </Link>
+          </a>
           <Link
             activeClass="active"
             smooth
