@@ -66,7 +66,7 @@ const HeroSection = () => {
         </div>
         <div className="flex flex-col justify-between my-auto">
           <div
-            className="text-center text-base md:mt-8 mt-4 text-gray-500 md:w-[80%] m-auto"
+            className="md:text-center text-left text-base md:mt-8 mt-4 text-gray-500 md:w-[80%] m-auto"
             data-aos="fade-up"
           >
             Flair Health is a virtual extension for medical practices treating

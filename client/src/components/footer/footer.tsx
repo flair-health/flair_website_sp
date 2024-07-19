@@ -21,11 +21,14 @@ const Footer = () => {
                 alt=""
               />
               <div className="flex items-center flex-col justify-start ">
-                <div className="w-full text-base -mb-6 ml-4">
+                <div className="w-full text-base -mb-6 ml-4 hidden md:block">
                   Backed by : &nbsp;
                 </div>
                 <div className="flex gap-2">
-                  <img src="/yc.svg" className="m-0 p-0 w-[200px] h-[100px] " />
+                  <img
+                    src="/yc.svg"
+                    className="m-0 p-0 md:w-[200px] md:h-[100px] h-[80px]"
+                  />
                 </div>
               </div>
             </div>
@@ -85,8 +88,6 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="col_sub2"></div>
               <div className="col_sub3">
                 <div className="link-row">
                   <div className="footer-header_sub">
