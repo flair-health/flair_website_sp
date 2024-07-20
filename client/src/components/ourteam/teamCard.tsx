@@ -5,6 +5,7 @@ type TteamCard = {
   name: string;
   title: string;
   desc: string;
+  bios?: string;
 };
 
 const TeamCard = (props: TteamCard) => {
@@ -18,7 +19,13 @@ const TeamCard = (props: TteamCard) => {
         />
       </div>
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-0">{props.name}</div>
+        <div className="font-bold text-xl mb-0  align-middle">
+          {props.name}{" "}
+          <p className="inline-flex font-semibold text-base my-auto">
+            {" "}
+            {props.bios}
+          </p>
+        </div>
         <div className=" text-base text-[#14a8e1]">{props.title}</div>
         <p className="text-gray-700 text-base mt-2 text-left">{props.desc}</p>
       </div>

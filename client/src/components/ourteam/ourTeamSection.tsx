@@ -28,19 +28,22 @@ const OurTeamSection = () => {
       </div>
       <div className="flex md:gap-4 gap-2 md:flex-row flex-col  items-center justify-center m-auto">
         <TeamCard
-          name="Bonnie Kuss, MPH, RD, LD"
+          name="Bonnie Kuss"
           img="/bonnie_kuss.jpeg"
           title="Registered Dietitian"
+          bios="(MPH, RD, LD)"
           desc="Bonnie studied Computer Science at Stanford with a focus on Human Computer Interaction and Design. Prior to Tennr he built automation systems at Goldman Sachs as an automation engineer."
         />
         <TeamCard
           name="Heather Finn"
           img="/heather_finn.jpeg"
+          bios="(MS, BCBA, NBC-HWC)"
           title="Health Coach"
           desc="Heather studied Computer Science at Stanford with a focus on Human Computer Interaction and Design. Prior to Tennr he built automation systems at Goldman Sachs as an automation engineer."
         />
         <TeamCard
           name="Kendall Cwik"
+          bios="(MS)"
           img="/kendall_cwik.jpeg"
           title="Health Coach"
           desc="Heather studied Computer Science at Stanford with a focus on Human Computer Interaction and Design. Prior to Tennr he built automation systems at Goldman Sachs as an automation engineer."
