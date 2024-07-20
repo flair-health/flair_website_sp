@@ -11,7 +11,7 @@ const CollaborativeCare = () => {
   const [url, setUrl] = useState("goals.png");
 
   return (
-    <div className="  flex flex-col 2xl:items-center mt-10 md:mt-10 md:gap-4 gap-2">
+    <div className="  flex flex-col 2xl:items-center  md:mt-10 md:gap-4 gap-2">
       <div
         className="container 2xl:text-4xl text-2xl md:w-[82%] md:m-auto md:marker:w-[70%] font-semibold md:text-center tracking-tight"
         id="functionality"

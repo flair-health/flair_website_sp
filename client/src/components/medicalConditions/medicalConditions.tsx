@@ -19,6 +19,7 @@ const MedicalConditions = () => {
       </div>
       <Swiper
         spaceBetween={30}
+        slidesPerGroup={3}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
@@ -41,7 +42,7 @@ const MedicalConditions = () => {
           },
         }}
         modules={[FreeMode, Pagination, Autoplay]}
-        className="mySwiper"
+        className="mySwiper pb-4 mb-4"
       >
         <SwiperSlide>
           <ConditionCard

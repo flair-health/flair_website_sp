@@ -9,11 +9,11 @@ const MarqueeEffect = () => {
     "/valley.png",
   ];
   const row2 = [
+    "/medicare.png",
     "/atena.svg",
     "/cigna.svg",
     "/united.svg",
     "/blue.png",
-    "/medicare.png",
   ];
 
   return (

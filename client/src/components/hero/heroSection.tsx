@@ -13,7 +13,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className=" md:pb-20  2xl:mt-14  justify-center m-auto pt-10 ">
+    <div className=" md:pb-20  2xl:mt-14 xl:mt-10 justify-center m-auto  ">
       <div className=" 2xl:gap-8 gap-2 2xl:flex-row ">
         <div className="relative w-full overflow-x-clip hidden md:block">
           <div className=" absolute -left-[530px] -z-50 ">
@@ -35,7 +35,17 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
+          <div className="text-center 2xl:pb-8">
+            <div className="font-medium">Backed by</div>
+            <div className="p-0 -mt-4">
+              <img
+                className="m-auto xl:w-[150px] 2xl:w-[180px]"
+                src="/yc.svg"
+                alt="yc"
+              />
+            </div>
+          </div>
           <div className="  mx-auto sm:w-full  sm:max-w-xs  hidden md:block md:overflow-visible">
             <Lottie
               options={defaultOptions}
@@ -44,7 +54,7 @@ const HeroSection = () => {
             />
           </div>
           <div className="container md:text-center text-4xl font-bold sm:px-10 sm:text-5xl md:text-[60px] md:leading-[81px]">
-            Reimagining patient journeys <br />
+            Reimagining patient experience <br />
             in{" "}
             <span className="inline-block tracking-tighter">
               autoimmune

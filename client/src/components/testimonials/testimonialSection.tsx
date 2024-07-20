@@ -2,7 +2,7 @@ import TestimonialCarousel from "./testimonialCarousel";
 
 const Testomials = () => {
   return (
-    <div className="py-20" id="testimonials">
+    <div className="md:py-20 py-4" id="testimonials">
       <div className="container md:text-center ">
         <div className="md:text-4xl text-2xl  font-semibold mt-4 md:mt-8 md:mb-2 tracking-tight">
           Testimonials
