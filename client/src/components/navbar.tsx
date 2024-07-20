@@ -21,7 +21,7 @@ const Navbar = () => {
       style={{ backgroundColor: `rgba(255, 255, 255, ${white / 50})` }}
     >
       <div className="container md:w-[82%] md:p-0 m-auto flex items-center justify-between">
-        <a href="/https://www.linkedin.com/company/flairhealth/">
+        <a href="/">
           <img src="flair_logo_white.png" width="85px" alt="Logo" />
         </a>
         <div className=" font-medium hidden md:flex w-[40%] justify-between text-[#14a8e1]">
