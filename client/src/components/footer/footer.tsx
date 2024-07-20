@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-[#14a8e1] md:py-20 py-10 text-white">
-      <div className="container w-[83%] mx-auto px-4 ">
+      <div className="container md:w-[83%] mx-auto px-4 ">
         <div className="border-b-[1px] md:mb-20 mb-10 border-gray-100 border-opacity-25">
           <div className="flex justify-between items-center mb-12">
             <div className="flex items-center">
@@ -81,8 +81,8 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex justify-between items-center text-sm">
-          <div className="space-x-6">
+        <div className="flex justify-between flex-col md:flex-row  items-center text-sm">
+          <div className="space-x-6 mb-2">
             <a href="#" className="hover:underline">
               Legal, Privacy, and Compliance
             </a>
