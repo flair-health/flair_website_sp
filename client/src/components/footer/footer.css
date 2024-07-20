@@ -1,7 +1,7 @@
 .footerparent {
     margin: 0 auto;
-    padding-top: 4em;
-    padding-bottom: 2em;
+    /* padding-top: 4em; */
+    /* margin-bottom: 2em; */
 }
 
 .glass {
@@ -10,8 +10,6 @@
     backdrop-filter: blur(7px);
     border-radius: 20px;
     margin-top: 2em;
-    max-width: 82%;
-    margin: auto;
 }
 
 .logo-row {
@@ -31,6 +29,9 @@
     width: 100%;
     height: 100%;
     top: 0px;
+    margin-bottom: 2em;
+    /* width: 82%; */
+    margin: auto;
 }
 
 .footer-header {
@@ -257,9 +258,9 @@
 }
 
 @media (max-width: 1024px) {
-    .glass {
+    /* .glass {
         max-width: 95%;
-    }
+    } */
 
     .col_main {
         display: flex;

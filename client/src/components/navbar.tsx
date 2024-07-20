@@ -51,7 +51,7 @@ const Navbar = () => {
           </Link> */}
         </div>
         <div className="hidden md:block">
-          <CTAButton title="Learn more" />
+          <CTAButton title="Learn More" />
         </div>
         <div onClick={toggleMenu} className="md:hidden">
           <Sling size={25} color="#14a8e1" />
