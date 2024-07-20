@@ -1,4 +1,5 @@
 import MarqueeEffect from "../collab/collab";
+import ContactSection from "../contact/Contact";
 import TeamCard from "./teamCard";
 
 const OurTeamSection = () => {
@@ -51,6 +52,7 @@ const OurTeamSection = () => {
       </div>
 
       <MarqueeEffect />
+      <ContactSection />
     </div>
   );
 };
