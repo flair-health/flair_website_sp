@@ -24,7 +24,6 @@ function Home() {
       <About />
       <MedicalConditions />
       <VideoSection />
-
       <MarqueeEffect />
       {/* <FeatureSection /> */}
       {/* <CTA /> */}
