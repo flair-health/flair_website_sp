@@ -15,6 +15,7 @@ export default function CTAButton({ title }: TbuttonProps) {
     >
       <Link
         to="about"
+        href="/"
         activeClass="active"
         smooth
         spy
