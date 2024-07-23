@@ -68,11 +68,9 @@ const Navbar = () => {
             activeClass="active"
             smooth
             spy
-            to="testimonials"
+            to="about"
+            offset={-100}
             className="hover:underline cursor-pointer"
-            onClick={() => {
-              setIsMenuOpen(false);
-            }}
           >
             For Pharma
           </Link>
