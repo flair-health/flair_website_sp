@@ -19,6 +19,7 @@ export default function CTAButton({ title, onClick }: TbuttonProps) {
         smooth
         spy
         onClick={onClick}
+        offset={-100}
         className="font-semibold text-lg "
       >
         {title}

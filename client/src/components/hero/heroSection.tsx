@@ -90,7 +90,7 @@ const HeroSection = () => {
           </div>
           <div className="container flex md:justify-center md:m-auto md:mt-8 mt-4">
             <Button className="border-[#14a8e1] hover:text-#14a8e1 bg-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white md:py-4 md:px-6">
-              <Link activeClass="active" smooth spy to="about">
+              <Link activeClass="active" smooth spy to="about" offset={-100}>
                 Learn More
               </Link>
             </Button>{" "}
