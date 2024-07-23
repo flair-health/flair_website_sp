@@ -6,7 +6,7 @@ type TbuttonProps = {
   onClick?: () => void;
 };
 
-export default function CTAButton({ title, onClick }: TbuttonProps) {
+export default function CTAButton({ title }: TbuttonProps) {
   return (
     <Button
       asChild
