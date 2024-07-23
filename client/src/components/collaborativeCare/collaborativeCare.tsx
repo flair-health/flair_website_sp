@@ -11,9 +11,9 @@ const CollaborativeCare = () => {
   const [url, setUrl] = useState("/unnamed.png");
 
   return (
-    <div className="flex flex-col 2xl:items-center md:mt-10 md:gap-4 gap-2">
+    <div className="flex flex-col 2xl:items-center md:mt-20 md:gap-4 gap-2 ">
       <div
-        className="container 2xl:text-4xl text-2xl md:w-[82%] md:m-auto md:marker:w-[70%] font-semibold md:text-center tracking-tight"
+        className="container  2xl:text-4xl text-2xl md:w-[82%] md:m-auto md:marker:w-[70%] font-semibold md:text-center tracking-tight"
         id="functionality"
       >
         Our Collaborative Care Model
@@ -100,7 +100,7 @@ const CollaborativeCare = () => {
           </AccordionItem>
         </Accordion>
       </div>
-      <div className="md:-mt-20">
+      <div className="">
         <MedicalConditions />
       </div>
     </div>
