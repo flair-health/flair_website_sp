@@ -5,13 +5,15 @@ const Footer = () => {
         <div className="border-b-[1px] md:mb-20 mb-10 border-gray-100 border-opacity-25">
           <div className="flex justify-between items-center mb-12">
             <div className="flex items-center">
-              <img src="/flair_logo copy.svg" width={120} />
+              <img src="/flair_logo copy.svg" alt="logo" width={120} />
             </div>
 
             <div className="flex space-x-4 ">
               <a
                 href="https://www.linkedin.com/company/flairhealth/"
                 className="hover:opacity-75"
+                aria-label="Linkedin"
+                target="_blank"
               >
                 <svg
                   className="h-6 w-6"
@@ -24,6 +26,8 @@ const Footer = () => {
               <a
                 href="https://x.com/flairhealthcare?s=08"
                 className="hover:opacity-75"
+                aria-label="Twitter"
+                target="_blank"
               >
                 <svg
                   className="h-6 w-6"
@@ -36,6 +40,8 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/flairhealth/?igsh=MTJlazhuaTFyZ3ZmMw%3D%3D"
                 className="hover:opacity-75"
+                aria-label="Instagram"
+                target="_blank"
               >
                 <svg
                   className="h-6 w-6"
@@ -78,6 +84,7 @@ const Footer = () => {
               src="https://www.hipaatraining.com/Content/images/badges/branded/badge4-orig.svg"
               width="80px"
               height="50px"
+              alt="hipaalogo"
             />
           </div>
         </div>
