@@ -16,7 +16,7 @@ const VideoSection = () => {
         >
           <div className="w-full md:h-[574px] h-[200px]">
             <iframe
-              src="https://www.youtube.com/embed/j0bnCxfp7e0"
+              src="https://www.youtube-nocookie.com/embed/j0bnCxfp7e0"
               className="w-full h-full rounded-2xl border-none"
               allow="autoplay; encrypted-media"
               title="Flair health"
