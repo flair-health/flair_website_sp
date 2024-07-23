@@ -31,6 +31,7 @@ const Navbar = () => {
           </NavLink>
           <Link
             activeClass="active"
+            href="/"
             smooth
             spy
             to="about"
@@ -66,6 +67,7 @@ const Navbar = () => {
           </a>
           <Link
             activeClass="active"
+            href="/"
             smooth
             spy
             to="about"
