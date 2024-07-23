@@ -2,7 +2,7 @@ import { Button } from "../../../components/ui/button";
 
 const ContactSection = () => {
   return (
-    <div className="container  md:pt-10 md:pb-10">
+    <div className="container  md:pt-10 md:pb-10" id="contact">
       <div className="flex flex-wrap">
         <div className="w-full ">
           <div className=" mx-auto text-center md:mb-[50px]">

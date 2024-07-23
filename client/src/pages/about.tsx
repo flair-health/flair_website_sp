@@ -11,6 +11,8 @@ import {
   BreadcrumbSeparator,
 } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
+import { Link } from "react-scroll";
+import { Button } from "../../components/ui/button";
 
 const AboutUs = () => {
   return (
@@ -104,7 +106,21 @@ const AboutUs = () => {
                 ones battling autoimmune conditions – personalized support to
                 live with Flair.
               </div>
-              <CTAButton title="Connect With Us" />
+              <Button
+                asChild
+                variant="outline"
+                className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white"
+              >
+                <Link
+                  to="contact"
+                  activeClass="active"
+                  smooth
+                  spy
+                  className="font-semibold text-lg "
+                >
+                  Connect With Us
+                </Link>
+              </Button>
             </div>
           </div>
         </div>

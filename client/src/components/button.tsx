@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import { Button } from "../../components/ui/button";
 
 type TbuttonProps = {
@@ -12,9 +13,16 @@ export default function CTAButton({ title, onClick }: TbuttonProps) {
       variant="outline"
       className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white"
     >
-      <a onClick={onClick} className="font-semibold text-lg ">
+      <Link
+        to="about"
+        activeClass="active"
+        smooth
+        spy
+        onClick={onClick}
+        className="font-semibold text-lg "
+      >
         {title}
-      </a>
+      </Link>
     </Button>
   );
 }

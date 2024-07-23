@@ -4,6 +4,7 @@ import { useState } from "react";
 import CTAButton from "./button"; // Import the ContactModal component
 import { Link } from "react-scroll";
 import { Sling } from "hamburger-react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,13 +22,13 @@ const Navbar = () => {
       style={{ backgroundColor: `rgba(255, 255, 255, ${white / 50})` }}
     >
       <div className="container md:w-[82%] md:p-0 m-auto flex items-center justify-between">
-        <a href="/">
+        <NavLink to="/">
           <img src="flair_logo_white.png" width="85px" alt="Logo" />
-        </a>
+        </NavLink>
         <div className=" font-medium hidden md:flex w-[40%] justify-between text-[#14a8e1]">
-          <a href="/forclinic" className="hover:underline cursor-pointer">
+          <NavLink to="/forclinic" className="hover:underline cursor-pointer">
             For Clinics
-          </a>
+          </NavLink>
           <Link
             activeClass="active"
             smooth
@@ -37,9 +38,9 @@ const Navbar = () => {
           >
             For Pharma
           </Link>
-          <a href="/about" className="hover:underline cursor-pointer">
+          <NavLink to="/about" className="hover:underline cursor-pointer">
             About Us
-          </a>
+          </NavLink>
           {/* <Link
             activeClass="active"
             smooth
