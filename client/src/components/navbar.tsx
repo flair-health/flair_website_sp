@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import CTAButton from "./button"; // Import the ContactModal component
 import { Link } from "react-scroll";
