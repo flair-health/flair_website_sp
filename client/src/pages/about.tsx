@@ -1,4 +1,3 @@
-import CTAButton from "../components/button";
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
 import OurTeamSection from "../components/ourteam/ourTeamSection";
