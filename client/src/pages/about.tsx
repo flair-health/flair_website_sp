@@ -1,14 +1,7 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
-import OurTeamSection from "../components/ourteam/ourTeamSection";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "../../components/ui/breadcrumb";
+import OurTeamSection from "../components/ourTeam/ourTeamSection";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
 import { Link } from "react-scroll";
 import { Button } from "../../components/ui/button";
@@ -17,57 +10,74 @@ const AboutUs = () => {
   return (
     <>
       <Navbar />
-      <div className="">
+      <div className="bg-[#14a8e1]">
         <Breadcrumb className="container pt-10 md:w-[82%]">
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink href="/">
-                <Home className="w-[15px]" />
+                <Home className="w-[15px] text-gray-200 hover:opacity-75" />
               </BreadcrumbLink>
             </BreadcrumbItem>
-
-            <BreadcrumbSeparator />
+            <BreadcrumbSeparator className="text-white" />
             <BreadcrumbItem>
-              <BreadcrumbPage className="underline">About us</BreadcrumbPage>
+              <BreadcrumbPage className="underline text-white">
+                About Us
+              </BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
+        <div className="container py-20 md:w-[82%] text-white">
+          <div className="my-auto">
+            <div className=" font-semibold  md:text-6xl w-full text-2xl md:pb-4 pb-2 md:tracking-tighter">
+              About Us
+            </div>
+            <div className="text-med font-normal md:w-[90%] 2xl:text-base">
+              Flair Health is a virtual extension for medical practices treating patients 
+              with inflammatory conditions, elevating the care experience for those affected 
+              by autoimmune diseases.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="">
         <div className="container md:w-[82%] py-10 flex ">
           <div className="">
             <div className=" font-semibold  2xl:text-6xl w-full text-2xl pb-4 tracking-tighter">
               About Flair Health
             </div>
-
             <div className="text-sm font-normal md:w-[80%] 2xl:text-base md:mb-8 mb-4">
-              <p className="pb-2 font-semibold">
-                Flair Health is a virtual extension for medical practices,
-                providing high-touch nutrition and health coaching services to
-                patients with chronic conditions.
+              <p className="pb-2">
+              Flair Health is a virtual extension for clinics and pharmacies treating patients 
+              with inflammatory conditions, elevating the patient journey for those affected by 
+              autoimmune diseases.
               </p>
               <p className="pb-2">
-                80% of chronic conditions can be prevented with improvements in
-                lifestyle. However, most doctors are stretched thin and don’t
-                have the time to provide patients with adequate education about
-                nutrition and lifestyle or have detailed check-ins with patients
-                between in-person visits. As a result, patients struggle to
-                manage their conditions and become reliant on medications,
-                leading to poorer health outcomes and higher costs.
+                Patients diagnosed with autoimmune conditions often face a challenging road ahead 
+                in managing their health. They must navigate a complex array of fluctuating symptoms 
+                that can dramatically impact daily life and receive very little education about the 
+                critical role of lifestyle factors in managing autoimmune diseases. 
+
+                Autoimmune disease patients also often require biologic medications, which can be 
+                pivotal in managing their symptoms effectively. However, accessing these treatments 
+                often involves navigating complex insurance protocols and significant administrative 
+                hurdles, which can be both time-consuming and overwhelming. Many patients face delays 
+                and difficulties in obtaining approval for these essential medications, leading to 
+                prolonged periods of discomfort and the potential worsening of their condition.
               </p>
               <p className="pb-2">
-                Flair’s lifestyle-based care management services help patients
-                improve their chronic conditions, while also enabling medical
-                practices to unlock additional revenue. We support clinics by
-                providing their patients with a virtual care team of dietitians
-                and health coaches, and a technology platform for patients to
-                set lifestyle goals, track their progress, and access
-                personalized meal/exercise recommendations.
+                Flair has introduced a specialized care management program for individuals with 
+                autoimmune disorders, offering support through a virtual team of dietitians and 
+                health coaches to create personalized lifestyle plans that enhance overall health. 
+                Additionally, Flair's proprietary tech streamlines the process of accessing biologic 
+                medications by navigating insurance and pharmacy protocols, significantly improving 
+                patient outcomes and reducing administrative burdens for the patient's clinic and 
+                specialty pharmacy.
               </p>
-              <p className="font-semibold">
-                In short: we enable doctors to offer lifestyle medicine to their
-                patients, both covered by insurance and without any additional
-                time and effort by the clinic. Our ultimate goal is to help the
-                20 million Americans with autoimmune conditions reverse their
-                chronic diseases through data-driven lifestyle medicine.
+              <p className="pb-2">
+                In short: we enable doctors and pharmacies to offer nutrition care, 
+                health coaching, and medication access support to their patients. Our ultimate goal 
+                is to change the paradigm of care for the 20 million Americans with autoimmune 
+                conditions.
               </p>
             </div>
           </div>

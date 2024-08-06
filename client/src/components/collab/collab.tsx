@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 
-const MarqueeEffect = () => {
+const Partners = () => {
   const row1 = [
     "https://chicagoarthritis.com/wp-content/uploads/2022/08/chicago-arthritis-logo.svg",
     "/UnabridgedMD.webp",
@@ -10,7 +10,7 @@ const MarqueeEffect = () => {
   ];
   const row2 = [
     "/medicare.png",
-    "/atena.svg",
+    "/aetna.svg",
     "/cigna.svg",
     "/united.svg",
     "/blue.png",
@@ -21,9 +21,8 @@ const MarqueeEffect = () => {
       <div className="text-center m-auto font-semibold text-xl md:text-2xl 2xl:text-4xl tracking-tight pt-5 md:pt-10 2xl:pt-20 pb-1 md:pb-2">
         Our Partners
       </div>
-      <div className="text-center text-sm font-normal text-gray-500 m-auto md:w-[60%] 2xl:text-base">
-        Flair Health is working with patients from rheumatology private
-        practices across the country.
+      <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
+        Flair Health is working with rheumatologists and insurance plans across the country.
       </div>
       <AppContainer>
         <Wrapper>
@@ -38,9 +37,6 @@ const MarqueeEffect = () => {
           </Marquee>
         </Wrapper>
       </AppContainer>
-      <div className="text-center pt-10 md:pt-20 pb-4 m-auto font-semibold text-xl md:text-2xl 2xl:text-3xl tracking-tight">
-        Flair supports patients with the following insurances.
-      </div>
       <AppContainer>
         <Wrapper>
           <Marquee>
@@ -58,7 +54,7 @@ const MarqueeEffect = () => {
   );
 };
 
-export default MarqueeEffect;
+export default Partners;
 
 const AppContainer = styled.div`
   color: #000000;

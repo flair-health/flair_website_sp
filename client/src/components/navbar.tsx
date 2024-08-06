@@ -1,12 +1,10 @@
 import { useState } from "react";
-import CTAButton from "./button"; // Import the ContactModal component
-import { Link } from "react-scroll";
+import CTAButton from "./button";
 import { Sling } from "hamburger-react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // State to manage modal visibility
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage modal visibility
   const [white, setWhite] = useState(30);
 
   const toggleMenu = () => {
@@ -23,33 +21,16 @@ const Navbar = () => {
         <NavLink to="/">
           <img src="flair_logo_white.png" width="85px" alt="Logo" />
         </NavLink>
-        <div className=" font-medium hidden md:flex w-[40%] justify-between text-[#14a8e1]">
-          <NavLink to="/forclinic" className="hover:underline cursor-pointer">
-            For Clinics
+        <div className=" font-medium hidden md:flex w-[50%] justify-between text-[#14a8e1]">
+          <NavLink to="/nutrition" className="hover:underline cursor-pointer">
+            Autoimmune Care Program
           </NavLink>
-          <Link
-            activeClass="active"
-            href="/"
-            smooth
-            spy
-            to="about"
-            offset={-100}
-            className="hover:underline cursor-pointer"
-          >
-            For Pharma
-          </Link>
+          <NavLink to="/pharmacies" className="hover:underline cursor-pointer">
+            Specialty Medication Access
+          </NavLink>
           <NavLink to="/about" className="hover:underline cursor-pointer">
             About Us
           </NavLink>
-          {/* <Link
-            activeClass="active"
-            smooth
-            spy
-            to="functionality"
-            className="hover:underline cursor-pointer"
-          >
-            For Patients
-          </Link> */}
         </div>
         <div className="hidden md:block">
           <CTAButton title="Learn More" />
@@ -60,20 +41,12 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden flex flex-col items-center text-2xl mt-10 bg-white shadow-sm gap-4 text-[#14a8e1] h-screen p-4 absolute w-full top-10 left-0">
-          <a href="/forclinic" className="hover:underline cursor-pointer">
-            For Clinics
+          <a href="/nutrition" className="hover:underline cursor-pointer">
+            Autoimmune Care Program
           </a>
-          <Link
-            activeClass="active"
-            href="/"
-            smooth
-            spy
-            to="about"
-            offset={-100}
-            className="hover:underline cursor-pointer"
-          >
-            For Pharma
-          </Link>
+          <a href="/pharmacies" className="hover:underline cursor-pointer">
+            Specialty Medication Access
+          </a>
           <a href="/about" className="hover:underline cursor-pointer">
             About Us
           </a>

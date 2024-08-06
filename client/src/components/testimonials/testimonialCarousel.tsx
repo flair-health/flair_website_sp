@@ -31,7 +31,7 @@ export default function TestimonialCarousel() {
             about="Flair Health Patient"
           />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <TestimonialCard
             numberStars={5}
             review="I have a better mindset and feel so much more in control of my health. The Flair team has been so supportive and helpful throughout this entire program."
@@ -46,7 +46,7 @@ export default function TestimonialCarousel() {
             name="DG"
             about="Flair Health Patient"
           />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );

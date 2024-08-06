@@ -69,10 +69,10 @@ const Footer = () => {
           </div>
           <div className="space-y-3">
             <div className="text-lg font-semibold">Quick Links</div>
-            <a href="/forpharma" className="block hover:underline">
-              For Pharma
+            <a href="/pharmacies" className="block hover:underline">
+              For Specialty Pharmacies
             </a>
-            <a href="/forclinic" className="block hover:underline">
+            <a href="/nutrition" className="block hover:underline">
               For Clinics
             </a>
             <a href="/about" className="block hover:underline">
@@ -100,7 +100,7 @@ const Footer = () => {
               Cookie Settings
             </a>
           </div>
-          <div>© FLAIR HEALTH® 2024</div>
+          <div>© Flair Health ® 2024</div>
         </div>
       </div>
     </footer>

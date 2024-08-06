@@ -37,7 +37,7 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-col ">
-          <div className="container md:text-center 2xl:pb-8">
+          {/* <div className="container md:text-center 2xl:pb-8">
             <div className="font-medium">Backed by</div>
             <div className="p-0 -mt-4 -ml-2 md:ml-0">
               <img
@@ -46,7 +46,7 @@ const HeroSection = () => {
                 alt="yc"
               />
             </div>
-          </div>
+          </div> */}
           <div className="  mx-auto sm:w-full  sm:max-w-xs  hidden md:block md:overflow-visible">
             <Lottie
               options={defaultOptions}
@@ -83,21 +83,13 @@ const HeroSection = () => {
             className="container md:text-center text-left sm:text-base 2xl:text-lg  md:mt-8 mt-4 text-gray-500 md:w-[65%] m-auto"
             data-aos="fade-up"
           >
-            Flair Health is a virtual extension for medical practices treating
-            patients with inflammatory conditions, elevating the care experience
-            for those affected by autoimmune diseases while generating revenue
-            for clinics.
+            Flair Health is a virtual extension for clinics and pharmacies treating
+            patients with inflammatory conditions, elevating the patient journey
+            for those affected by autoimmune diseases.
           </div>
           <div className="container flex md:justify-center md:m-auto md:mt-8 mt-4">
             <Button className="border-[#14a8e1] hover:text-#14a8e1 bg-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white md:py-4 md:px-6">
-              <Link
-                activeClass="active"
-                href="/"
-                smooth
-                spy
-                to="about"
-                offset={-100}
-              >
+              <Link activeClass="active" smooth spy to="contact" offset={-100}>
                 Learn More
               </Link>
             </Button>{" "}

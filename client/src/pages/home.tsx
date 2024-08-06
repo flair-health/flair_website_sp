@@ -3,11 +3,11 @@ import About from "../components/about/aboutSection";
 import Footer from "../components/footer/footer";
 import HeroSection from "../components/hero/heroSection";
 import Navbar from "../components/navbar";
-import MarqueeEffect from "../components/collab/collab";
+import Partners from "../components/collab/collab";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Testomials from "../components/testimonials/testimonialSection";
-import VideoSection from "../components/videosection/videoSection";
+import Testimonials from "../components/testimonials/testimonialSection";
+import FlairInfoVideo from "../components/flairInfoVideo/videoSection";
 import MedicalConditions from "../components/medicalConditions/medicalConditions";
 import ContactSection from "../components/contact/Contact";
 
@@ -23,13 +23,13 @@ function Home() {
       <HeroSection />
       <About />
       <MedicalConditions />
-      <VideoSection />
-      <MarqueeEffect />
+      <FlairInfoVideo />
+      <Partners />
       {/* <FeatureSection /> */}
       {/* <CTA /> */}
       {/* <Pricing /> */}
-      <Testomials />
-      <ContactSection />
+      <Testimonials />
+      <ContactSection/>
       <Footer />
     </div>
   );

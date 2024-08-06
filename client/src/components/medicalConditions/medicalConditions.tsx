@@ -13,9 +13,8 @@ const MedicalConditions = () => {
       <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold md:text-center tracking-tight">
         Common Conditions We Work With
       </div>
-      <div className="md:text-center text-sm font-normal text-gray-500 2xl:text-base mb-8">
-        Comprehensive Care for Common Conditions We Specialize In Managing and
-        Treating
+      <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
+        We support underserved patient populations who have inflammatory autoimmune diseases and take specialty medications.
       </div>
       <Swiper
         spaceBetween={30}
@@ -45,10 +44,7 @@ const MedicalConditions = () => {
         className="mySwiper pb-4 mb-4"
       >
         <SwiperSlide>
-          <ConditionCard
-            name="Rheumatoid Arthritis (RA)"
-            image="/arthritis.png"
-          />
+          <ConditionCard name="Rheumatoid Arthritis" image="/arthritis.png" />
         </SwiperSlide>
         <SwiperSlide>
           <ConditionCard name="Gout" image="/gout.png" />

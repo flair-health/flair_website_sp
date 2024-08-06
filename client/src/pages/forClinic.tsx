@@ -1,19 +1,13 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
-import CollaborativeCare from "../components/collaborativeCare/collaborativeCare";
-import Working from "../components/howitWorks/working";
+import CareModel from "../components/careModel/careModel";
+import HowItWorks from "../components/howitWorks/working";
 import OurOutcomes from "../components/outcomes/ourOutcomes";
-import MarqueeEffect from "../components/collab/collab";
-import Process from "../components/process/process";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "../../components/ui/breadcrumb";
+import Partners from "../components/collab/collab";
+import ContactSection from "../components/contact/Contact";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
+
 const ForClinic = () => {
   return (
     <>
@@ -26,7 +20,6 @@ const ForClinic = () => {
                 <Home className="w-[15px] text-gray-200 hover:opacity-75" />
               </BreadcrumbLink>
             </BreadcrumbItem>
-
             <BreadcrumbSeparator className="text-white" />
             <BreadcrumbItem>
               <BreadcrumbPage className="underline text-white">
@@ -38,22 +31,21 @@ const ForClinic = () => {
         <div className="container py-20 md:w-[82%] text-white">
           <div className="my-auto">
             <div className=" font-semibold  md:text-6xl w-full text-2xl md:pb-4 pb-2 md:tracking-tighter">
-              For Clinics
+              Enhance Autoimmune Care with Personalized Nutrition and Health Coaching
             </div>
-            <div className="text-sm font-normal md:w-[80%] 2xl:text-base">
-              Our patient experience is led by dietitians and health coaches
-              through a combination of digital platforms and human touchpoints.
+            <div className="text-med font-normal md:w-[90%] 2xl:text-base">
+              Flair’s autoimmune-focused care management services empower doctors to support patients between visits, covered by insurance.
             </div>
           </div>
         </div>
       </div>
       <div className="py-4">
-        <CollaborativeCare />
+        <CareModel />
       </div>
-      <Working />
-      <Process />
+      <HowItWorks />
       <OurOutcomes />
-      <MarqueeEffect />
+      <Partners />
+      <ContactSection />
       <Footer />
     </>
   );

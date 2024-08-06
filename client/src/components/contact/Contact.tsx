@@ -9,11 +9,9 @@ const ContactSection = () => {
             <h2 className="md:text-4xl text-2xl font-semibold mt-4 md:mt-8 mb-2 text-left md:text-center md:mb-2 tracking-tight">
               Ready to get started with Flair Health?{" "}
             </h2>
-            <p className="2xl:text-center text-sm font-normal md:w-[55%] text-left m-auto text-gray-500 2xl:text-base mb-8">
-              Achieve better patient outcomes, increased engagement, and higher
-              revenue for your practice without additional staff burden. It's a
-              win-win.
-            </p>
+            <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
+              Achieve better patient experience, operational efficiency, and retention through Flair Health. It's a win-win.
+            </div>
           </div>
         </div>
       </div>

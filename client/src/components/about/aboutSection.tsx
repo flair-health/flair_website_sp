@@ -8,24 +8,30 @@ const About = () => {
         id="about"
       >
         Flair Health helps rheumatology practices provide patients with
-        personalized nutrition and health coaching support, covered by
-        insurance.
+        personalized nutrition care, health coaching support, and medication access support.
       </div>
 
       <div className="flex md:gap-12 gap-4 md:flex-row flex-col">
         <div data-aos="fade-up" data-aos-delay="50">
           <Card
             head="For Patients"
-            desc="Make progress towards your health coals with additional support from qualified dieticians and health coaches between doctor's visits.
-"
-            url="gestation.gif"
+            desc="Reach your best health with personalized support from your doctor, dietitian, health coach, and pharmacist."
+            url="patient.png"
           />
         </div>
         <div data-aos="fade-up" data-aos-delay="150">
           <Card
             head="For Clinics"
-            desc="Provide the best possible patient experience and generate additional revenue, with low admin overhead."
-            url="hospital.gif"
+            desc="Provide the best possible experience for autoimmune patients and generate additional revenue, with low admin overhead."
+            url="hospital.png"
+            data-aos-delay="50"
+          />
+        </div>
+        <div data-aos="fade-up" data-aos-delay="150">
+          <Card
+            head="For Pharmacies"
+            desc="Help more patients start and stay on complex specialty therapies through detailed insights into the full patient journey."
+            url="pharmacy.png"
             data-aos-delay="50"
           />
         </div>

@@ -14,8 +14,7 @@ export default function CTAButton({ title }: TbuttonProps) {
       className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white"
     >
       <Link
-        to="about"
-        href="/"
+        to="contact"
         activeClass="active"
         smooth
         spy

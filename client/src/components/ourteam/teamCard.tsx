@@ -4,7 +4,7 @@ type TteamCard = {
   img: string;
   name: string;
   title: string;
-  desc: string;
+  desc?: string;
   bios?: string;
 };
 
