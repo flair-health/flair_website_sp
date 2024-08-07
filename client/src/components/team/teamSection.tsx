@@ -2,7 +2,7 @@ import Partners from "../partners/partners";
 import ContactSection from "../contact/Contact";
 import TeamCard from "./teamCard";
 
-const OurTeamSection = () => {
+const TeamSection = () => {
   return (
     <div className="container pt-10 md:w-[82%]">
       <div className=" 2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-2 pb-2 tracking-tight">
@@ -51,4 +51,4 @@ const OurTeamSection = () => {
   );
 };
 
-export default OurTeamSection;
+export default TeamSection;
