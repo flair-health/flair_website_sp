@@ -1,6 +1,6 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
-import OurTeamSection from "../components/ourTeam/ourTeamSection";
+import OurTeamSection from "../components/ourteam/ourTeamSection";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
 import { Link } from "react-scroll";
