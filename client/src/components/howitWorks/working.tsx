@@ -1,12 +1,9 @@
-
 const HowItWorks = () => {
   return (
     <>
       <div
-        className="container 2xl:text-4xl text-2xl md:w-[82%] pt-8 md:pt-28 md:mb-8 mb-4 md:m-auto md:marker:w-[70%] font-semibold md:text-center tracking-tight"
-        id="functionality"
-      >
-        How It Works
+        className="container 2xl:text-4xl text-2xl md:w-[82%] pt-8 md:pt-28 md:mb-8 md:m-auto md:marker:w-[70%] font-semibold md:text-center tracking-tight"
+        id="functionality"> How It Works
       </div>
       <div className="container md:w-[92%] flex flex-col md:flex-row md:space-x-2 m-auto py-4 md:mt-4 md:py-4 lg:grid-cols-11">
         <div className="flex flex-col md:flex-row items-center justify-between w-full my-8 md:my-4 md:w-1/4 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 py-6 md:py-8 dark:from-[#4F54DC]">

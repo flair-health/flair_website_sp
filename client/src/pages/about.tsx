@@ -1,6 +1,6 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
-import OurTeamSection from "../components/ourteam/ourTeamSection";
+import OurTeamSection from "../components/ourTeam/ourTeamSection";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
 import { Link } from "react-scroll";
@@ -47,16 +47,17 @@ const AboutUs = () => {
             </div>
             <div className="text-sm font-normal md:w-[80%] 2xl:text-base md:mb-8 mb-4">
               <p className="pb-2">
-              Flair Health is a virtual extension for clinics and pharmacies treating patients 
-              with inflammatory conditions, elevating the patient journey for those affected by 
-              autoimmune diseases.
+                Flair Health is a virtual extension for clinics and pharmacies treating patients 
+                with inflammatory conditions, elevating the patient journey for those affected by 
+                autoimmune diseases.
               </p>
               <p className="pb-2">
                 Patients diagnosed with autoimmune conditions often face a challenging road ahead 
                 in managing their health. They must navigate a complex array of fluctuating symptoms 
                 that can dramatically impact daily life and receive very little education about the 
                 critical role of lifestyle factors in managing autoimmune diseases. 
-
+                </p>
+              <p className="pb-2">
                 Autoimmune disease patients also often require biologic medications, which can be 
                 pivotal in managing their symptoms effectively. However, accessing these treatments 
                 often involves navigating complex insurance protocols and significant administrative 
@@ -94,7 +95,7 @@ const AboutUs = () => {
                 Our Story
               </div>
 
-              <div className=" text-sm font-normal   2xl:text-base md:mb-4 ">
+              <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
                 We’re Diva and Shobha, the co-founders of Flair Health. We met
                 as undergraduates at Stanford and found ourselves geeking out
                 about healthcare and preventative care. Both of us have worked
@@ -109,24 +110,17 @@ const AboutUs = () => {
                 challenges of autoimmune conditions, including challenges in
                 getting a diagnosis, making necessary lifestyle changes, and
                 accessing important medications.
-                <br />
-                <br />
+              </div>
+              <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
                 We're building what we wish we had for ourselves and our loved
                 ones battling autoimmune conditions – personalized support to
                 live with Flair.
               </div>
-              <Button
-                asChild
-                variant="outline"
-                className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white"
-              >
-                <Link
-                  to="contact"
-                  activeClass="active"
-                  smooth
-                  spy
-                  className="font-semibold text-lg "
-                >
+              <Button asChild variant="outline"
+                className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 
+                text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur 
+                hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white" >
+                <Link to="contact" activeClass="active" smooth spy className="font-semibold text-lg" >
                   Connect With Us
                 </Link>
               </Button>

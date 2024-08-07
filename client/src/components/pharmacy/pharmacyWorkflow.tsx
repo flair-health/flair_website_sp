@@ -1,20 +1,19 @@
-const PharmacyWorklow = () => {
+const PharmacyWorkflow = () => {
   return (
-    <>
-      <div className="container 2xl:text-4xl text-2xl md:w-[82%] pt-8 md:pt-28 md-8 md:m-auto 
-        md:marker:w-[70%] font-semibold md:text-center tracking-tight" id="functionality" >
-        <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold md:text-center tracking-tight"> How It Works </div>
+    <div className="container md:w-[82%] flex flex-col 2xl:items-center mt-10 md:mt-40 md:gap-2 gap-2">
+      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold md:text-center tracking-tight">
+        How It Works
       </div>
-      <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-4">
+      <div className="md:text-center font-normal text-gray-500 2xl:text-base">
         Flair's platform is built with the pharmacist, prescriber, and patient experience at the forefront. 
       </div>
 
-      <div className="container w-full max-w-[92%] mx-auto py-4">
+      <div className="container w-full max-w-[92%] mx-auto">
         <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
           <div className="flex flex-col justify-center items-center text-center w-full p-4">
-            <div className="flex items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full mb-4 flex justify-center">
-                <img src="../../public/patient_dashboard.png" alt="Patient Dashboard" className="w-full max-w-md h-auto rounded-lg" />
+                <img src="../../patient_dashboard.png" alt="Patient Dashboard" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
                 <p className="text-lg leading-normal sm:text-xl sm:font-medium">Intelligent Patient Information Dashboard</p>
@@ -33,9 +32,9 @@ const PharmacyWorklow = () => {
 
         <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
           <div className="flex flex-col justify-center items-center text-center w-full p-4">
-            <div className="flex items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full mb-4 flex justify-center">
-                <img src="../../public/patient_profile.png" alt="Patient Profile" className="w-full max-w-md h-auto rounded-lg" />
+                <img src="../../patient_profile.png" alt="Patient Profile" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
                 <p className="text-lg leading-normal sm:text-xl sm:font-medium">Personalized and Detailed Patient Information</p>
@@ -57,9 +56,9 @@ const PharmacyWorklow = () => {
 
         <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
           <div className="flex flex-col justify-center items-center text-center w-full p-4">
-            <div className="flex items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full mb-4 flex justify-center">
-                <img src="../../public/prescription_start.png" alt="Prescription Start" className="w-full max-w-md h-auto rounded-lg" />
+                <img src="../../prescription_start.png" alt="Prescription Start" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
                 <p className="text-lg leading-normal sm:text-xl sm:font-medium">Track Prescriptions and Engage Patients Effectively</p>
@@ -78,9 +77,9 @@ const PharmacyWorklow = () => {
 
         <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
           <div className="flex flex-col justify-center items-center text-center w-full p-4">
-            <div className="flex items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full mb-4 flex justify-center">
-                <img src="../../public/patient_journey.png" alt="Patient Journey" className="w-full max-w-md h-auto rounded-lg" />
+                <img src="../../patient_journey.png" alt="Patient Journey" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
                 <p className="text-lg leading-normal sm:text-xl sm:font-medium">Real-Time and Comprehensive Visibility about Patient Journeys</p>
@@ -99,9 +98,9 @@ const PharmacyWorklow = () => {
 
         <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
           <div className="flex flex-col justify-center items-center text-center w-full p-4">
-            <div className="flex items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full mb-4 flex justify-center">
-                <img src="../../public/pharmacy_analytics.png" alt="Pharmacy Analytics" className="w-full max-w-md h-auto rounded-lg" />
+                <img src="../../pharmacy_analytics.png" alt="Pharmacy Analytics" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
                 <p className="text-lg leading-normal sm:text-xl sm:font-medium">Advanced and Actionable Analytics</p>
@@ -121,8 +120,8 @@ const PharmacyWorklow = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default PharmacyWorklow;
+export default PharmacyWorkflow;

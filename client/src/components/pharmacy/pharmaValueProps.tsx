@@ -8,7 +8,7 @@ const ValueProps = () => {
         Our Outcomes
       </div>
       <div className="container flex justify-center ">
-        <div className="flex md:max-w-[80%] xl:flex-row flex-col gap-8 m-auto align-middle">
+        <div className="flex md:max-w-[80%] xl:flex-row flex-col gap-8 m-auto mb-8 align-middle">
           <ValuePropCard valueHeading="Improved Efficiency" valueText="Reduce time spent calling payers and prescribers, and decrease time-to-start across patients. ✨" />
           <ValuePropCard valueHeading="Increase Retention" valueText="proactively identify patients at risk of discontuation to increase patient adherence and fill more Rxs. ⭐️"/>
           <ValuePropCard valueHeading="Higher Satisfaction" valueText="engage new and existing patients, reduce burden on prescribers, and provide high-quality care. 🎉"/>

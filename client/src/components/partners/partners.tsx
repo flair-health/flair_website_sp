@@ -18,7 +18,7 @@ const Partners = () => {
 
   return (
     <div className="container mt-10 mb-5 md:mt-20 md:mb-10">
-      <div className="text-center m-auto font-semibold text-xl md:text-2xl 2xl:text-4xl tracking-tight pt-5 md:pt-10 2xl:pt-20 pb-1 md:pb-2">
+      <div className=" 2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-2 pb-2 tracking-tight">
         Our Partners
       </div>
       <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">

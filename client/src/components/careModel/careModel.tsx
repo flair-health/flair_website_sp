@@ -1,28 +1,20 @@
 import { useState } from "react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "../../../components/ui/accordion";
-import MedicalConditions from "../medicalConditions/medicalConditions";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../../../components/ui/accordion";
 
 const CareModel = () => {
   const [url, setUrl] = useState("/unnamed.png");
 
   return (
-    <div className="flex flex-col 2xl:items-center md:mt-20 md:gap-4 gap-2 ">
-      <div
-        className="container  2xl:text-4xl text-2xl md:w-[82%] md:m-auto md:marker:w-[70%] font-semibold md:text-center tracking-tight"
-        id="functionality"
-      >
+    <div className="container md:w-[82%] flex flex-col 2xl:items-center mt-10 md:mt-40 md:gap-2 gap-2">
+      <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold md:text-center tracking-tight">
         Our Collaborative Care Model
       </div>
-      <div className="container md:text-center text-sm md:w-[60%] m-auto text-gray-500 font-normal md:text-base 2xl:w-[55%] mb-8">
+      <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
         Flair provides a top-notch virtual patient experience, with access to
         registered dietitians, certified health coaches, and a technology
         platform.
       </div>
+
       <div className="container w-full flex xl:w-[70%] m-auto md:flex-row flex-col justify-between md:items-center">
         <div className="mx-auto">
           <img src={url} className="h-[300px] md:h-[250px]" alt="features" />
@@ -99,9 +91,6 @@ const CareModel = () => {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-      </div>
-      <div className="">
-        <MedicalConditions />
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
-import PharmacyWorklow from "../components/pharmacyWorkflow/pharmacyWorkflow";
+import PharmacyWorklow from "../components/pharmacy/pharmacyWorkflow";
 import ContactSection from "../components/contact/Contact";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
-import ValueProps from "../components/valueProps/valueProps";
+import ValueProps from "../components/pharmacy/pharmaValueProps";
 
 const ForPharmacy = () => {
   return (

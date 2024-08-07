@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./swiperstyle.css";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -16,6 +15,7 @@ const MedicalConditions = () => {
       <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
         We support underserved patient populations who have inflammatory autoimmune diseases and take specialty medications.
       </div>
+      
       <Swiper
         spaceBetween={30}
         slidesPerGroup={3}

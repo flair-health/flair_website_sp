@@ -1,9 +1,10 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
 import CareModel from "../components/careModel/careModel";
+import MedicalConditions from "../components/medicalConditions/medicalConditions";
 import HowItWorks from "../components/howitWorks/working";
 import OurOutcomes from "../components/outcomes/ourOutcomes";
-import Partners from "../components/collab/collab";
+import Partners from "../components/partners/partners";
 import ContactSection from "../components/contact/Contact";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
@@ -42,6 +43,7 @@ const ForClinic = () => {
       <div className="py-4">
         <CareModel />
       </div>
+      <MedicalConditions />
       <HowItWorks />
       <OurOutcomes />
       <Partners />

@@ -3,7 +3,7 @@ import About from "../components/about/aboutSection";
 import Footer from "../components/footer/footer";
 import HeroSection from "../components/hero/heroSection";
 import Navbar from "../components/navbar";
-import Partners from "../components/collab/collab";
+import Partners from "../components/partners/partners";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Testimonials from "../components/testimonials/testimonialSection";

@@ -1,4 +1,4 @@
-import Partners from "../collab/collab";
+import Partners from "../partners/partners";
 import ContactSection from "../contact/Contact";
 import TeamCard from "./teamCard";
 

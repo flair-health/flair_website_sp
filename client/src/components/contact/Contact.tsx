@@ -2,14 +2,14 @@ import { Button } from "../../../components/ui/button";
 
 const ContactSection = () => {
   return (
-    <div className="container  md:pt-10 md:pb-10" id="contact">
+    <div className="container md:pt-10 md:pb-10" id="contact">
       <div className="flex flex-wrap">
-        <div className="w-full ">
-          <div className=" mx-auto text-center md:mb-[50px]">
-            <h2 className="md:text-4xl text-2xl font-semibold mt-4 md:mt-8 mb-2 text-left md:text-center md:mb-2 tracking-tight">
-              Ready to get started with Flair Health?{" "}
+        <div className="w-full">
+          <div className="mx-auto text-left md:text-center md:mb-[50px]">
+            <h2 className="text-2xl md:text-4xl font-semibold mt-4 md:mt-8 mb-2 tracking-tight">
+              Ready to get started with Flair Health?
             </h2>
-            <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
+            <div className="font-normal text-gray-500 text-base mb-8">
               Achieve better patient experience, operational efficiency, and retention through Flair Health. It's a win-win.
             </div>
           </div>
