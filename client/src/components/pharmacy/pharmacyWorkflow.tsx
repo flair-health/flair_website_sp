@@ -5,7 +5,7 @@ const PharmacyWorkflow = () => {
         How It Works
       </div>
       <div className="md:text-center font-normal text-gray-500 2xl:text-base">
-        Flair's platform is built with the pharmacist, prescriber, and patient experience at the forefront. 
+        Flair's platform is built with C-Suite (CFOs, COOs, CPOs) leaders and financial coordinators in mind.
       </div>
 
       <div className="container w-full max-w-[92%] mx-auto">
@@ -16,14 +16,11 @@ const PharmacyWorkflow = () => {
                 <img src="../../patient_dashboard.png" alt="Patient Dashboard" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
-                <p className="text-lg leading-normal sm:text-xl sm:font-medium">Intelligent Patient Information Dashboard</p>
+                <p className="text-lg leading-normal sm:text-xl sm:font-medium">Identify Unresolved Accounts</p>
                 <ul className="list-none space-y-2 mt-2 text-sm text-gray-500">
                   <li className="flex items-center">
-                    <span className="text-blue-500 mr-2">✔️</span> Flair’s platform intelligently surfaces AI-driven action items for pharmacy staff to prevent unnecessary and preventable patient non-starts and Rx abandonments.
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-500 mr-2">✔️</span> Proactively identify and flag patients at high risk for discontinuation of therapy in order to allocate staff time and resources towards patients in need.
-                  </li>
+                    <span className="text-blue-500 mr-2"></span> We proactively identify patient accounts with unresolved balances - whether from payers or co-pay assistance programs - in one view.
+                  </li> 
                 </ul>
               </div>
             </div>
@@ -37,16 +34,10 @@ const PharmacyWorkflow = () => {
                 <img src="../../patient_profile.png" alt="Patient Profile" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
-                <p className="text-lg leading-normal sm:text-xl sm:font-medium">Personalized and Detailed Patient Information</p>
+                <p className="text-lg leading-normal sm:text-xl sm:font-medium">Alerts Notifications on Action Items</p>
                 <ul className="list-none space-y-2 mt-2 text-sm text-gray-500">
                   <li className="flex items-center">
-                    <span className="text-blue-500 mr-2">✔️</span> Collect comprehensive patient records, prescription forms, medical history, and insurance documents across payers, prescribers, and patients.
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-500 mr-2">✔️</span> Receive individualized, patient-specific action items for specific patients such as automated prior authorization expiration, refill reminder, and copay assistance enrollment notifications.
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-500 mr-2">✔️</span> Highlight individual drivers of no-starts and discontinuation risk such as payer controls, financial affordability, and other patient access barriers to predict patients likely to discontinue before abandonment.
+                    <span className="text-blue-500 mr-2"></span> We notify you of action items, such as payor denials and copay assistance filing deadlines, to help you effectively follow up on accounts.
                   </li>
                 </ul>
               </div>
@@ -61,13 +52,10 @@ const PharmacyWorkflow = () => {
                 <img src="../../prescription_start.png" alt="Prescription Start" className="w-full max-w-md h-auto rounded-lg" />
               </div>
               <div className="w-full max-w-lg">
-                <p className="text-lg leading-normal sm:text-xl sm:font-medium">Track Prescriptions and Engage Patients Effectively</p>
+                <p className="text-lg leading-normal sm:text-xl sm:font-medium">Reconcile Payments Through One Platform</p>
                 <ul className="list-none space-y-2 mt-2 text-sm text-gray-500">
                   <li className="flex items-center">
-                    <span className="text-blue-500 mr-2">✔️</span> Manage the prescription lifecycle from intake and processing to fulfillment to monitoring, and view detailed timeline of prescription activities such as prescription received, prior authorization, manufacturer hub enrollment, order scheduling, and adherence monitoring.
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-500 mr-2">✔️</span> Flair’s platform integrates with EHRs, pharmacy dispensing systems, and billing platform to collect complete patient information and history, reducing back-and-forth with prescribers.
+                    <span className="text-blue-500 mr-2"></span> Whether filing copay assistance or alternate funding programs, ditch multiple log-ins and use one platform to recoup all your payments.
                   </li>
                 </ul>
               </div>
@@ -75,7 +63,7 @@ const PharmacyWorkflow = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
+       {/* <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
           <div className="flex flex-col justify-center items-center text-center w-full p-4">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full mb-4 flex justify-center">
@@ -94,9 +82,9 @@ const PharmacyWorkflow = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
 
-        <div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
+        {/*<div className="flex flex-col items-center w-full my-8 py-6 rounded-lg border-[1px] bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] to-65% px-2 dark:from-[#4F54DC]">
           <div className="flex flex-col justify-center items-center text-center w-full p-4">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full mb-4 flex justify-center">
@@ -118,9 +106,9 @@ const PharmacyWorkflow = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
-    </div>
+  </div>
   );
 };
 

@@ -55,11 +55,16 @@ const Footer = () => {
           </div>
         </div>
 
+
         <div className="grid grid-cols-2 gap-8 mb-12 text-base">
           <div className="space-y-3">
-            <div className="text-lg font-semibold">Contact Info</div>
-            <div className="block ">San Francisco, CA</div>
-            <div className="block ">(650)862-2930</div>
+          <a href>San Francisco, California - 94123</a>
+          <br></br>
+          <a href>United States</a>
+          <br></br>
+          <br></br>
+            <div className="text-lg font-semibold">Questions and Partnerships</div>
+            <div className="block "></div>
             <a
               href="mailto:hello@flairhealth.com"
               className="block hover:underline"
@@ -69,11 +74,17 @@ const Footer = () => {
           </div>
           <div className="space-y-3">
             <div className="text-lg font-semibold">Quick Links</div>
-            <a href="/pharmacies" className="block hover:underline">
-              For Specialty Pharmacies
+            <a href="/" className="block hover:underline">
+              For Health System Pharmacies
             </a>
-            <a href="/nutrition" className="block hover:underline">
-              For Clinics
+            <a href="/" className="block hover:underline">
+              For Buy and Bill Programs
+            </a>
+            <a href="/" className="block hover:underline">
+              For Infusion Centers
+            </a>
+            <a href="/" className="block hover:underline">
+              For Other Specialty Pharmacies
             </a>
             <a href="/about" className="block hover:underline">
               About Us
@@ -90,14 +101,12 @@ const Footer = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row  items-center text-sm">
           <div className="space-x-6 mb-2">
-            <a href="#" className="hover:underline">
-              Legal, Privacy, and Compliance
-            </a>
+            
             <a href="#" className="hover:underline">
               Terms of use
             </a>
             <a href="#" className="hover:underline">
-              Cookie Settings
+              Privacy Policy
             </a>
           </div>
           <div>© Flair Health ® 2024</div>
@@ -108,3 +117,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
+//<a href="#" className="hover:underline">
+//Legal, Privacy, and Compliance
+//</a>

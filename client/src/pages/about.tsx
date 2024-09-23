@@ -32,9 +32,7 @@ const AboutUs = () => {
               About Us
             </div>
             <div className="text-med font-normal md:w-[90%] 2xl:text-base">
-              Flair Health is a virtual extension for medical practices treating patients 
-              with inflammatory conditions, elevating the care experience for those affected 
-              by autoimmune diseases.
+            Flair's platform helps pharmacies and dispensing sites recover payments by resolving misallocated and unaccounted claims,helping you close your books faster.
             </div>
           </div>
         </div>
@@ -47,38 +45,19 @@ const AboutUs = () => {
             </div>
             <div className="text-sm font-normal md:w-[80%] 2xl:text-base md:mb-8 mb-4">
               <p className="pb-2">
-                Flair Health is a virtual extension for clinics and pharmacies treating patients 
-                with inflammatory conditions, elevating the patient journey for those affected by 
-                autoimmune diseases.
+              Founded in 2023, Flair Health provides peace of mind to dispensing sites such as health systems, clinics, and specialty pharmacies through our accounts receivable (A/R) automation tool and services.
               </p>
-              <p className="pb-2">
-                Patients diagnosed with autoimmune conditions often face a challenging road ahead 
-                in managing their health. They must navigate a complex array of fluctuating symptoms 
-                that can dramatically impact daily life and receive very little education about the 
-                critical role of lifestyle factors in managing autoimmune diseases. 
+              <br></br>
+              <p className="pb-2">              
+              At Flair, our team—comprising Revenue Cycle Management (RCM) specialists and Accounting Managers (AM) with over 40 years of combined experience and talented software engineers—helps specialty pharmacies streamline their financial and A/R processes. 
                 </p>
+                <br></br>
               <p className="pb-2">
-                Autoimmune disease patients also often require biologic medications, which can be 
-                pivotal in managing their symptoms effectively. However, accessing these treatments 
-                often involves navigating complex insurance protocols and significant administrative 
-                hurdles, which can be both time-consuming and overwhelming. Many patients face delays 
-                and difficulties in obtaining approval for these essential medications, leading to 
-                prolonged periods of discomfort and the potential worsening of their condition.
+              Our goal is to reduce the time spent managing backlogged and outstanding claims, allowing your teams to focus less on navigating numerous platforms and more on closing books faster and more efficiently.         
               </p>
+              <br></br>
               <p className="pb-2">
-                Flair has introduced a specialized care management program for individuals with 
-                autoimmune disorders, offering support through a virtual team of dietitians and 
-                health coaches to create personalized lifestyle plans that enhance overall health. 
-                Additionally, Flair's proprietary tech streamlines the process of accessing biologic 
-                medications by navigating insurance and pharmacy protocols, significantly improving 
-                patient outcomes and reducing administrative burdens for the patient's clinic and 
-                specialty pharmacy.
-              </p>
-              <p className="pb-2">
-                In short: we enable doctors and pharmacies to offer nutrition care, 
-                health coaching, and medication access support to their patients. Our ultimate goal 
-                is to change the paradigm of care for the 20 million Americans with autoimmune 
-                conditions.
+              We understand the importance of smooth integration with existing systems. That’s why our engineers take the lead in minimizing IT burdens by ensuring our platform integrates seamlessly with existing billing tools.
               </p>
             </div>
           </div>
@@ -96,25 +75,16 @@ const AboutUs = () => {
               </div>
 
               <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-                We’re Diva and Shobha, the co-founders of Flair Health. We met
-                as undergraduates at Stanford and found ourselves geeking out
-                about healthcare and preventative care. Both of us have worked
-                in the healthcare space for almost a decade combined, across
-                companies like Ancestry, Johnson & Johnson, Rock Health, and
-                Rupa Health.
+              Our Story
+
+Flair Health was founded by Stanford computer science graduates Diva Sharma and Shobha Dasari, inspired by Shobha’s challenging experience in obtaining her specialty medication. 
               </div>
               <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-                We’re both deeply driven by the mission of improving the
-                experience for patients with autoimmune conditions. We have
-                personally experienced or supported loved ones through the
-                challenges of autoimmune conditions, including challenges in
-                getting a diagnosis, making necessary lifestyle changes, and
-                accessing important medications.
+              It took four months for her to receive her first dose, during which she had to endure long weekly phone calls with her insurance and pharmacy—sometimes 2-3 times a week. Three months into the process, she discovered the need to enroll in a copay maximizer program.
+            
               </div>
               <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-                We're building what we wish we had for ourselves and our loved
-                ones battling autoimmune conditions – personalized support to
-                live with Flair.
+              To better understand these obstacles, we shadowed multiple health systems and clinics to gain insight into specialty billing workflows. This firsthand knowledge informed the development of a product designed to be instrumental in solving these challenges.     
               </div>
               <Button asChild variant="outline"
                 className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 

@@ -4,25 +4,23 @@ import styled from "styled-components";
 
 const Partners = () => {
   const row1 = [
-    "https://chicagoarthritis.com/wp-content/uploads/2022/08/chicago-arthritis-logo.svg",
-    "/UnabridgedMD.webp",
-    "/valley.png",
+    "/stanford.png",
+    "/linkedin.png",
+    "/nccn.jpg",
   ];
   const row2 = [
-    "/medicare.png",
-    "/aetna.svg",
-    "/cigna.svg",
-    "/united.svg",
-    "/blue.png",
+    "/jnj.png",
+    "/Genentech-Logo.wine.png",
+    "/expion.png",
   ];
 
   return (
     <div className="container mt-10 mb-5 md:mt-20 md:mb-10">
       <div className=" 2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-2 pb-2 tracking-tight">
-        Our Partners
+        Who We Are
       </div>
       <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
-        Flair Health is working with rheumatologists and insurance plans across the country.
+      Our RCM specialists and engineers, with over 40 years of experience, have previously worked at some of the following companies.
       </div>
       <AppContainer>
         <Wrapper>
@@ -107,7 +105,7 @@ const ImageGroup = styled.div`
 
 const Image = styled.img`
   object-fit: contain;
-  width: 80%; /* Increased width for mobile */
+  width: 100%; /* Increased width for mobile */
   height: 100%;
   filter: grayscale(100%);
   &:hover {
@@ -118,6 +116,6 @@ const Image = styled.img`
   cursor: pointer;
 
   @media (max-width: 600px) {
-    width: 90%; /* Further increased width for very small screens */
+    width: 100%; /* Further increased width for very small screens */
   }
 `;

@@ -1,6 +1,7 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
 import PharmacyWorklow from "../components/pharmacy/pharmacyWorkflow";
+import HowItWorks from "../components/howitWorks/working";
 import ContactSection from "../components/contact/Contact";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
@@ -38,6 +39,7 @@ const ForPharmacy = () => {
           </div>
         </div>
       </div>
+      <HowItWorks />
       <PharmacyWorklow />
       <ValueProps />
       <ContactSection />

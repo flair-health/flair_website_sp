@@ -2,67 +2,69 @@ import { useState } from "react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../../../components/ui/accordion";
 
 const CareModel = () => {
-  const [url, setUrl] = useState("/unnamed.png");
+  const [url, setUrl] = useState("/hospital_new.png");
 
   return (
-    <div className="container md:w-[82%] flex flex-col 2xl:items-center mt-10 md:mt-40 md:gap-2 gap-2">
+    <div className="container md:w-[82%] flex flex-col 2xl:items-center mt-8 md:mt-30 md:gap-2 gap-2">
       <div className="2xl:text-4xl w-full text-2xl 2xl:w-[70%] font-semibold md:text-center tracking-tight">
-        Our Collaborative Care Model
+      Who We Serve
       </div>
       <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
-        Flair provides a top-notch virtual patient experience, with access to
-        registered dietitians, certified health coaches, and a technology
-        platform.
+      Flair's platform reduces financial leakage for sites that dispense specialty medications - simplifying A/R workflows.
       </div>
+
 
       <div className="container w-full flex xl:w-[70%] m-auto md:flex-row flex-col justify-between md:items-center">
         <div className="mx-auto">
-          <img src={url} className="h-[300px] md:h-[250px]" alt="features" />
+          <img src={url} className="h-[200px] md:h-[150px]" alt="features" />
         </div>
         <Accordion type="single" collapsible className="md:w-[60%]">
           <AccordionItem value="item-1" data-aos="fade-up">
             <AccordionTrigger
               className="md:text-2xl text-xl"
               onClick={() => {
-                setUrl("/unnamed.png");
+                setUrl("/hospital_new.png");
               }}
             >
               <div className="flex justify-center items-center gap-2">
-                Rheumatologist
-              </div>
-            </AccordionTrigger>
-            <AccordionContent className="md:text-base text-gray-500">
-              <ul className="list-disc pl-5 space-y-2">
-                <li>Diagnosis of rheumatic disease.</li>
-                <li>
-                  Prescribe and adjust medications to manage symptoms and
-                  disease progression.
-                </li>
-                <li>Track disease activity and progression.</li>
-              </ul>
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-2" data-aos="fade-up" data-aos-delay="50">
-            <AccordionTrigger
-              className="md:text-2xl text-xl"
-              onClick={() => {
-                setUrl("/plate.png");
-              }}
-            >
-              <div className="flex justify-center items-center gap-2">
-                Registered Dietitian
+                Health System Pharmacies
               </div>
             </AccordionTrigger>
             <AccordionContent className="text-gray-500">
               <ul className="list-disc pl-5 space-y-2">
-                <li>
-                  Development of tailored anti-inflammatory diets to manage
-                  symptoms and improve overall health.
-                </li>
-                <li>
-                  Patient education about dietary triggers of inflammation and
-                  optimizing overall nutrition.
-                </li>
+                  Increase your payments collection rate with a platform that integrates across your health system's technology infrastructure and talks to different teams.
+              </ul>
+            </AccordionContent>
+            <AccordionTrigger
+              className="md:text-2xl text-xl"
+              onClick={() => {
+                setUrl("/buyandbill.jpg");
+              }}
+            >
+              <div className="flex justify-center items-center gap-2">
+                Buy and Bill Programs
+              </div>
+            </AccordionTrigger>
+            <AccordionContent className="text-gray-500">
+              <ul className="list-disc pl-5 space-y-2">
+                  Resolve payments reconciliation post-dispense faster by unburdening your billing team and freeing up time spent on backlogged claims.
+              </ul>
+            </AccordionContent>
+          </AccordionItem>
+            <AccordionItem value="item-2" data-aos="fade-up" data-aos-delay="50">
+            <AccordionTrigger
+              className="md:text-2xl text-xl"
+              onClick={() => {
+                setUrl("/infusion.jpg");
+              }}
+            >
+              <div className="flex justify-center items-center gap-2">
+              Infusion Centers
+              </div>
+            </AccordionTrigger>
+            <AccordionContent className="text-gray-500">
+              <ul className="list-disc pl-5 space-y-2">
+              Identify claims with complex coverage limits fast, and put patients on alternate funding solutions faster.
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -70,27 +72,20 @@ const CareModel = () => {
             <AccordionTrigger
               className="md:text-2xl text-xl"
               onClick={() => {
-                setUrl("/happy.png");
+                setUrl("/pharmacy_new.png");
               }}
             >
               <div className="flex justify-center items-center gap-2">
-                Health Coach
+                Other Specialty Pharmacies
               </div>
             </AccordionTrigger>
             <AccordionContent className="text-gray-500">
               <ul className="list-disc pl-5 space-y-2">
-                <li>
-                  Sustainable lifestyle change plans, bridging the gap between
-                  medical advice and practical implementation.
-                </li>
-                <li>
-                  Non-pharmacological pain/energy management techniques (e.g.,
-                  mindfulness, pacing activities).
-                </li>
+                  Adopt an accounts receivable solution that increases receivables, helping you to remain competitive in the ecosystem.
               </ul>
             </AccordionContent>
           </AccordionItem>
-        </Accordion>
+                  </Accordion>
       </div>
     </div>
   );

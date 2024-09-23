@@ -9,7 +9,7 @@ const TeamSection = () => {
         Our Team
       </div>
       <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
-        Our team at Flair is dedicated to providing innovative, personalized support for autoimmune and inflammatory conditions.
+        Our team at Flair is dedicated to enabling specialty medication access by making your billing workflows robust.
       </div>
 
       <div className="flex md:gap-4 gap-2 md:w-[65%] flex-col md:flex-row  items-center justify-center m-auto">
@@ -24,7 +24,7 @@ const TeamSection = () => {
           title="Co-Founder"
         />
       </div>
-      <div className="flex md:gap-4 gap-2 md:flex-row flex-col  items-center justify-center m-auto">
+      {/*<div className="flex md:gap-4 gap-2 md:flex-row flex-col  items-center justify-center m-auto">
         <TeamCard
           name="Bonnie Kuss"
           img="/bonnie_kuss.jpeg"
@@ -43,7 +43,7 @@ const TeamSection = () => {
           img="/kendall_cwik.jpeg"
           title="Health Coach"
         />
-      </div>
+      </div>*/}
 
       <Partners />
       <ContactSection />

@@ -55,10 +55,10 @@ const HeroSection = () => {
             />
           </div>
           <div className="container md:text-center text-4xl font-bold sm:px-10 sm:text-5xl md:text-[60px] md:leading-[81px]">
-            Reimagining patient experience <br />
-            in{" "}
+            Transforming Accounts Receivables Workflows <br />
+            for{" "}
             <span className="inline-block tracking-tighter">
-              autoimmune
+            Specialty
               <svg
                 width="180"
                 height="25"
@@ -75,7 +75,7 @@ const HeroSection = () => {
                 />
               </svg>
             </span>{" "}
-            <div className="tracking-tighter inline-block"> care</div>
+            <div className="tracking-tighter inline-block"> Medications </div>
           </div>
         </div>
         <div className="flex flex-col justify-between my-auto">
@@ -83,9 +83,9 @@ const HeroSection = () => {
             className="container md:text-center text-left sm:text-base 2xl:text-lg  md:mt-8 mt-4 text-gray-500 md:w-[65%] m-auto"
             data-aos="fade-up"
           >
-            Flair Health is a virtual extension for clinics and pharmacies treating
-            patients with inflammatory conditions, elevating the patient journey
-            for those affected by autoimmune diseases.
+            Sites dispensing specialty medications face unique challenges when it comes to accounts receivables workflows.
+            <br></br><br></br>
+            Boost collections with Flair’s platform, automating tracking and follow-ups on backlogged claims.
           </div>
           <div className="container flex md:justify-center md:m-auto md:mt-8 mt-4">
             <Button className="border-[#14a8e1] hover:text-#14a8e1 bg-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white md:py-4 md:px-6">
