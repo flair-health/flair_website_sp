@@ -10,7 +10,7 @@ const ValueProps = () => {
       <div className="container flex justify-center ">
         <div className="flex md:max-w-[80%] xl:flex-row flex-col gap-8 m-auto mb-8 align-middle">
           <ValuePropCard valueHeading="Chief Financial Officers/Chief Pharmacy Officers" valueText="Smooth the close-out and recoupment process without spending weeks going through cumbersome platforms." />
-          <ValuePropCard valueHeading="Chief Pharmacy Officers" valueText="Equip your billing coordinators with tools that enable FTEs to focus on work that matters - not labor-intensive or backlogged tasks."/>
+          <ValuePropCard valueHeading="Chief Operating Officers" valueText="Equip your billing coordinators with tools that enable FTEs to focus on work that matters - not labor-intensive or backlogged tasks."/>
           <ValuePropCard valueHeading="Billing annd Financial Coordinators" valueText="Reduce time spent pouring through multiple portals to ensure your teams get paid on time."/>
         </div>
       </div>
