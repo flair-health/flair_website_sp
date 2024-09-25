@@ -2,19 +2,17 @@ import Card from "../card";
 
 const About = () => {
   return (
-    <div className="container md:w-[82%] flex flex-col md:items-center mt-10  md:mt-20 md:gap-2 gap-2">
-      <div
-        className="2xl:text-4xl w-full text-2xl pb-4 md:w-[75%] font-semibold md:text-center tracking-tight"
-        id="about"
-      >
-        Flair's platform helps pharmacies and dispensing sites recover payments by resolving misallocated and unaccounted claims,helping you close your books faster.
+    <div className="container md:w-[82%] flex flex-col md:items-center mt-10 md:mt-20">
+      <div className="2xl:text-4xl w-full text-2xl md:w-[75%] font-semibold md:text-center tracking-tight"
+        id="about">
+        Flair helps pharmacies and dispensing sites maximize reimbursements by accelerating claims processes and unlocking alternative payment sources.
       </div>
 
-      <div className="flex md:gap-12 gap-4 md:flex-row flex-col">
+      {/* <div className="flex md:gap-12 gap-4 md:flex-row flex-col">
         <div data-aos="fade-up" data-aos-delay="50">
           <Card
             head="Improved Cash Flow"
-            desc="We use AI to identify and recover outstanding claims by following up with payers and manufacturers on denials and ignored claims."
+            desc="We use AI to proactively identify and recover denials and ignored claims from payers and copay assistance funds."
             url="money.png"
           />
         </div>
@@ -34,7 +32,7 @@ const About = () => {
             data-aos-delay="50"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

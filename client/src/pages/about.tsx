@@ -32,7 +32,7 @@ const AboutUs = () => {
               About Us
             </div>
             <div className="text-med font-normal md:w-[90%] 2xl:text-base">
-            Flair's platform helps pharmacies and dispensing sites recover payments by resolving misallocated and unaccounted claims,helping you close your books faster.
+            Flair's platform helps pharmacies and dispensing sites recover payments by resolving misallocated and unaccounted claims, helping you close your books faster.
             </div>
           </div>
         </div>
@@ -45,19 +45,15 @@ const AboutUs = () => {
             </div>
             <div className="text-sm font-normal md:w-[80%] 2xl:text-base md:mb-8 mb-4">
               <p className="pb-2">
-              Founded in 2023, Flair Health provides peace of mind to dispensing sites such as health systems, clinics, and specialty pharmacies through our accounts receivable (A/R) automation tool and services.
-              </p>
-              <br></br>
-              <p className="pb-2">              
-              At Flair, our team—comprising Revenue Cycle Management (RCM) specialists and Accounting Managers (AM) with over 40 years of combined experience and talented software engineers—helps specialty pharmacies streamline their financial and A/R processes. 
-                </p>
-                <br></br>
-              <p className="pb-2">
-              Our goal is to reduce the time spent managing backlogged and outstanding claims, allowing your teams to focus less on navigating numerous platforms and more on closing books faster and more efficiently.         
+              Founded in 2023, Flair Health's team of RCM specialists (with over 40 years of combined experience) and software engineers helps clinics, infusion centers, and specialty pharmacies streamline their financial and A/R workflows.
               </p>
               <br></br>
               <p className="pb-2">
-              We understand the importance of smooth integration with existing systems. That’s why our engineers take the lead in minimizing IT burdens by ensuring our platform integrates seamlessly with existing billing tools.
+              Our goal is to improve patient access to specialty medications by supporting the pharmacy teams and patient coordinators, who deal with inefficient, complex applications and processes to receive medication quickly and affordably.
+              </p>
+              <br></br>
+              <p className="pb-2">
+              We understand the importance of smooth integration with existing systems. That’s why our engineers take the lead in minimizing IT burdens by ensuring our platform integrates seamlessly with existing tools.
               </p>
             </div>
           </div>
@@ -75,16 +71,13 @@ const AboutUs = () => {
               </div>
 
               <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-              Our Story
-
-Flair Health was founded by Stanford computer science graduates Diva Sharma and Shobha Dasari, inspired by Shobha’s challenging experience in obtaining her specialty medication. 
+              Flair Health was founded by Stanford computer science graduates Diva Sharma and Shobha Dasari, inspired by Shobha’s personal struggle in obtaining her specialty medication. 
               </div>
               <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-              It took four months for her to receive her first dose, during which she had to endure long weekly phone calls with her insurance and pharmacy—sometimes 2-3 times a week. Three months into the process, she discovered the need to enroll in a copay maximizer program.
-            
+              Shobha was prescribed a specialty medication for an autoimmune condition. For the next few months, she endured many long phone calls with her insurance and pharmacy – sometimes as often as 2-3 times a week – to get answers about why her medication was taking so long to get approved. After multiple prior authorization denials and a copay maximizer program, Shobha finally got her medication, 4 months after the initial prescription was written. 
               </div>
               <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-              To better understand these obstacles, we shadowed multiple health systems and clinics to gain insight into specialty billing workflows. This firsthand knowledge informed the development of a product designed to be instrumental in solving these challenges.     
+              Shobha's experience is not unique – countless patients struggle to access their specialty medications, and we wanted to help solve the problem. To better understand the challenges faced by both patients and coordinators, we shadowed multiple health systems and clinics, gaining deep insights into specialty billing workflows. This firsthand knowledge directly shaped the development of our solution, designed to effectively address these obstacles.     
               </div>
               <Button asChild variant="outline"
                 className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 

@@ -1,10 +1,10 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar";
-import CareModel from "../components/careModel/careModel";
+import CareModel from "../components/customers/customers";
 import MedicalConditions from "../components/medicalConditions/medicalConditions";
 import HowItWorks from "../components/howitWorks/working";
 import OurOutcomes from "../components/outcomes/ourOutcomes";
-import Partners from "../components/partners/partners";
+import Partners from "../components/team/teamLogos";
 import ContactSection from "../components/contact/Contact";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";

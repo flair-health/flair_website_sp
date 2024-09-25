@@ -10,7 +10,7 @@ const ContactSection = () => {
               Ready to get started with Flair Health?
             </h2>
             <div className="font-normal text-gray-500 text-base mb-8">
-            Let our technology handle outstanding claims so you can resolve accounts receivables faster. Schedule a demo to learn more.
+              Schedule a demo to learn more about how Flair Health can accelerate your specialty medication billing processes.
             </div>
           </div>
         </div>

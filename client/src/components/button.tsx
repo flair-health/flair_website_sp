@@ -10,8 +10,7 @@ export default function CTAButton({ title }: TbuttonProps) {
   return (
     <Button
       asChild
-      variant="outline"
-      className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white"
+      className="bg-[#14a8e1] hover:bg-[#0f8bb5] text-white cursor-pointer group relative inline-flex rounded-full font-semibold backdrop-blur transition-colors duration-200 border-none dark:bg-[#14a8e1] dark:hover:bg-[#0f8bb5]"
     >
       <Link
         to="contact"
@@ -19,7 +18,7 @@ export default function CTAButton({ title }: TbuttonProps) {
         smooth
         spy
         offset={-100}
-        className="font-semibold text-lg "
+        className="font-semibold text-lg"
       >
         {title}
       </Link>

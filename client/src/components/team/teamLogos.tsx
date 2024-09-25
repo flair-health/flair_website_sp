@@ -2,25 +2,25 @@
 
 import styled from "styled-components";
 
-const Partners = () => {
+const Team = () => {
   const row1 = [
-    "/stanford.png",
-    "/linkedin.png",
-    "/nccn.jpg",
-  ];
-  const row2 = [
     "/jnj.png",
     "/Genentech-Logo.wine.png",
-    "/expion.png",
+    "/linkedin.png",
   ];
-
+  const row2 = [
+    "/stanford.png",
+    "/expion.png",
+    "/nccn.jpg",
+  ];
+  
   return (
     <div className="container mt-10 mb-5 md:mt-20 md:mb-10">
       <div className=" 2xl:text-4xl md:text-center m-auto font-semibold text-2xl 2xl:pb-2 pb-2 tracking-tight">
-        Who We Are
+        Our Team
       </div>
-      <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8">
-      Our RCM specialists and engineers, with over 40 years of experience, have previously worked at some of the following companies.
+      <div className="md:text-center font-normal text-gray-500 2xl:text-base mb-8 w-[60%] mx-auto">
+        Our team of technologists, revenue cycle management specialists, and pharmaceutical leaders have decades of experience improving medication access for patients.
       </div>
       <AppContainer>
         <Wrapper>
@@ -52,7 +52,7 @@ const Partners = () => {
   );
 };
 
-export default Partners;
+export default Team;
 
 const AppContainer = styled.div`
   color: #000000;
