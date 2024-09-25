@@ -62,7 +62,7 @@ const Footer = () => {
           <div className="space-y-3">
             <div className="text-lg font-semibold">Quick Links</div>
             <div className="block "></div>
-            <a href="#features" className="block hover:underline">
+            <a href="/#features" className="block hover:underline">
               Features
             </a>
             <a href="/about" className="block hover:underline">
