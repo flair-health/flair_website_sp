@@ -1,5 +1,3 @@
-import Card from "../card";
-
 const About = () => {
   return (
     <div className="container md:w-[82%] flex flex-col md:items-center mt-10 md:mt-20">
