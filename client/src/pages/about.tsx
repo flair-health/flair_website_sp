@@ -3,8 +3,6 @@ import Navbar from "../components/navbar";
 import TeamSection from "../components/team/teamSection";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../../components/ui/breadcrumb";
 import { Home } from "lucide-react";
-import { Link } from "react-scroll";
-import { Button } from "../../components/ui/button";
 
 const AboutUs = () => {
   return (
@@ -60,37 +58,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="bg-[#14a8e1]">
-        <div className="container py-20 md:w-[82%] text-white">
-          <div className="flex gap-10  md:flex-row flex-col">
-            <img src="/team.jpeg" className="rounded-2xl md:w-1/2" />
-
-            <div className="my-auto">
-              <div className=" font-semibold  2xl:text-4xl w-full text-2xl pb-4 tracking-tight">
-                Our Story
-              </div>
-
-              <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-              Flair Health was founded by Stanford computer science graduates Diva Sharma and Shobha Dasari, inspired by Shobha’s personal struggle in obtaining her specialty medication. 
-              </div>
-              <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-              Shobha was prescribed a specialty medication for an autoimmune condition. For the next few months, she endured many long phone calls with her insurance and pharmacy – sometimes as often as 2-3 times a week – to get answers about why her medication was taking so long to get approved. After multiple prior authorization denials and a copay maximizer program, Shobha finally got her medication, 4 months after the initial prescription was written. 
-              </div>
-              <div className=" text-sm font-normal 2xl:text-base md:mb-8 mb-4 ">
-              Shobha's experience is not unique – countless patients struggle to access their specialty medications, and we wanted to help solve the problem. To better understand the challenges faced by both patients and coordinators, we shadowed multiple health systems and clinics, gaining deep insights into specialty billing workflows. This firsthand knowledge directly shaped the development of our solution, designed to effectively address these obstacles.     
-              </div>
-              <Button asChild variant="outline"
-                className="border-[#14a8e1] hover:text-#14a8e1 cursor-pointer dark:border-cornblue-500/80 
-                text-[#14a8e1]  group relative inline-flex rounded-full border font-semibold backdrop-blur 
-                hover:bg-zinc-50 dark:text-white dark:hover:bg-zinc-800 dark:hover:text-white" >
-                <Link to="contact" activeClass="active" smooth spy className="font-semibold text-lg" >
-                  Connect With Us
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
       <TeamSection />
       <Footer />
     </>
