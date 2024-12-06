@@ -22,7 +22,7 @@ const Navbar = () => {
         </a>
         <div className="flex items-center space-x-6">
           <div className="font-medium hidden md:flex w-[100%] justify-end text-[#14a8e1] space-x-6">
-            <a href="#features" className="hover:underline cursor-pointer"> Features </a>
+            <a href="/#features" className="hover:underline cursor-pointer"> Features </a>
             <a href="/about" className="hover:underline cursor-pointer"> About Us </a>
           </div>
           <div className="hidden md:block">
