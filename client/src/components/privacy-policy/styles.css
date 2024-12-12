@@ -1,0 +1,74 @@
+/* For elements with class 'body' and all its descendants */
+.body{
+    padding : 40px;
+}
+
+.body, 
+.body * {
+  background: transparent !important;
+ 
+}
+
+/* For elements with class 'title' and all its descendants */
+.title, 
+.title * {
+  font-family: Arial !important;
+  font-size: 26px !important;
+  color: #000000 !important;
+}
+
+/* For elements with class 'subtitle' and all its descendants */
+.subtitle, 
+.subtitle * {
+  font-family: Arial !important;
+  color: #595959 !important;
+  font-size: 14px !important;
+}
+
+/* For elements with class 'heading_1' and all its descendants */
+.heading_1, 
+.heading_1 * {
+  font-family: Arial !important;
+  font-size: 19px !important;
+  color: #000000 !important;
+}
+
+/* For elements with class 'heading_2' and all its descendants */
+.heading_2, 
+.heading_2 * {
+  font-family: Arial !important;
+  font-size: 17px !important;
+  color: #000000 !important;
+}
+
+/* For elements with class 'body_text' and all its descendants */
+.body_text, 
+.body_text * {
+  color: #595959 !important;
+  font-size: 14px !important;
+  font-family: Arial !important;
+  
+}
+
+/* For elements with class 'link' and all its descendants */
+.link, 
+.link * {
+  color: #3030f1 !important;
+  font-size: 14px !important;
+  font-family: Arial !important;
+  word-break: break-word !important;
+}
+
+
+ul {
+  list-style-type: square;
+}
+ul > li > ul {
+  list-style-type: circle;
+}
+ul > li > ul > li > ul {
+  list-style-type: square;
+}
+ol li {
+  font-family: Arial;
+}
