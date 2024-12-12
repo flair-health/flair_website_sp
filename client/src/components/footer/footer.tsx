@@ -72,8 +72,8 @@ const Footer = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row  items-center text-sm">
           <div className="space-x-6 mb-2">
-            <a href="#" className="hover:underline"> Terms of Use </a>
-            <a href="#" className="hover:underline"> Privacy Policy </a>
+            <a href="/terms-of-service" className="hover:underline"> Terms of Use </a>
+            <a href="/privacy-policy" className="hover:underline"> Privacy Policy </a>
           </div>
           <div>© Flair Health 2024</div>
         </div>
