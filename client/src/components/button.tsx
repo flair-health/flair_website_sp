@@ -1,4 +1,3 @@
-import { Link } from "react-scroll";
 import { Button } from "../../components/ui/button";
 
 type TbuttonProps = {
@@ -12,16 +11,16 @@ export default function CTAButton({ title }: TbuttonProps) {
       asChild
       className="bg-[#14a8e1] hover:bg-[#0f8bb5] text-white cursor-pointer group relative inline-flex rounded-full font-semibold backdrop-blur transition-colors duration-200 border-none dark:bg-[#14a8e1] dark:hover:bg-[#0f8bb5]"
     >
-      <Link
-        to="contact"
-        activeClass="active"
-        smooth
-        spy
-        offset={-100}
+      <a
+        href="/#contact"
+        // activeClass="active"
+        // smooth
+        // spy
+        // offset={-100}
         className="font-semibold text-lg"
       >
         {title}
-      </Link>
+      </a>
     </Button>
   );
 }

@@ -22,10 +22,15 @@ AOS.init({
 
 function Home() {
   useEffect(() => {
-    // Check if the URL contains the anchor part
+    // Check if the URL contains the anchor part for either #features or #contact
     if (window.location.hash === "#features") {
       // Scroll to the features section
       document.getElementById("features")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    } else if (window.location.hash === "#contact") {
+      // Scroll to the contact section
+      document.getElementById("contact")?.scrollIntoView({
         behavior: "smooth",
       });
     }
@@ -33,9 +38,9 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <HeroSection/>
+      <HeroSection />
       <br></br>
-      <Customers/>
+      <Customers />
       <br></br>
       {/*<MedicalConditions /> */}
       {/*<FlairInfoVideo /> */}
@@ -48,7 +53,7 @@ function Home() {
       {/* <Pricing /> */}
       {/*<Testimonials />*/}
       <br></br>
-      <ContactSection/>
+      <ContactSection />
       <Footer />
     </div>
   );
