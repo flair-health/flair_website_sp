@@ -1,6 +1,9 @@
 /* For elements with class 'body' and all its descendants */
 .body{
     padding : 40px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .body, 
